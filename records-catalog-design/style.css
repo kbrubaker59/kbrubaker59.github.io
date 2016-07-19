@@ -1,0 +1,203 @@
+/* Modified for Stephen Flemister */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic|Open+Sans:300italic,400,300);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600,600italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic);
+
+/* Use for Crimson Text
+Weights 400, 600, 700
+font-family: 'Crimson Text', serif; */
+
+/* Use for Open Sans Condensed
+Weight 300
+font-family: 'Open Sans Condensed', sans-serif;*/
+
+/*
+=========== GLOBAL
+*/
+body {
+	color: #333;
+	font-family: 'Crimson Text', sans-serif;
+	font-weight:400;
+}
+.clr{
+	clear:both
+}
+
+/*
+=========== STRUCTURE
+*/
+.site_shell {max-width: 728px;height: auto;margin:0px auto;padding:0px;}
+
+.large_col {max-width:100%;}
+.medium_col {width:50%;float:left;}
+.small_col {width:33.33%;float:left;}
+.xsmall_col {width:25%;float:left;}
+.full_col {}
+
+.smlrg-s_col {width:15%;min-width:150px;float:left;background:#E2E2E2;}
+.smlrg-l_col {width:85%;float:left;background:#E2E2E2;}
+.lrgsm-l_col {}
+.lrgsm-r_col {}
+
+.box1 {margin:0;}
+.sp10 {height:10px}
+
+
+
+/*
+=========== TREATMENT
+*/
+
+.title{font-weight:400;}
+.copy{font-weight:300;}
+
+html {
+
+}
+body {
+	margin: 0;
+	padding: 0;
+	background: url(images/record-bkgd.gif) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-size: 14px;
+}
+
+nav {
+	background-color: #eeeeee;
+}
+
+.nav_col {
+	max-width: 768px;
+	height: auto;
+	margin:0px auto;
+	padding:0px;
+}
+.main {
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 20px;
+	border: solid 1px #ffffff;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px; /* future proofing */
+	-khtml-border-radius: 6px; /* for old Konqueror browsers */
+}
+.box1 {
+/*	overflow: hidden;
+	line-height: 30px;
+	height: 30px;*/
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 auto;
+}
+h1 {
+	font-size: 28px;
+	line-height: 28px;
+	margin: 30px auto 4px;
+	font-weight: 400;
+	text-align: center;
+}
+h2 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 70px;
+	line-height: 70px;
+	margin-bottom: 30px;
+	text-align: center;
+	color: #99111b;
+}
+.box1 ul, .box1 ul li {
+	padding: 0;
+	margin: 0;
+}
+.box1 ul li {
+	display: inline;
+}
+.headline {
+	overflow: visible;
+}
+/*.hidden {
+	display: none;
+}
+.box2 {
+	display: none;
+}*/
+.artist {
+	font-size: 21px;
+}
+.record {
+	font-style: italic;
+}
+
+
+footer {
+	background-color: #99111b;
+	color: white;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+
+
+
+/*
+Hides the menu at `48em`, but modify this based on your app's needs.
+*/
+@media (min-width: 58em) {
+	.large_col {}
+	.medium_col {}
+	.small_col {}
+	.xsmall_col {width:25%;float:left;}
+	.full_col {}
+	
+	.smlrg-s_col {width:30%;min-width:200px;float:left;background:#E2E2E2;}
+	.smlrg-l_col {width:70%;float:left;background:#E2E2E2;}
+}
+
+
+@media (max-width: 58em) {
+	.smlrg-s_col {width:25%;min-width:150px;float:left;background:#E2E2E2;}
+	.smlrg-l_col {width:75%;float:left;background:#E2E2E2;}
+}
+
+
+@media (max-width: 48em) {
+	.large_col {}
+	.medium_col {}
+	.small_col {}
+	.xsmall_col {}
+	.full_col {}
+	
+	
+	.smlrg-s_col {width:35%;min-width:200px;float:left;background:#E2E2E2;}
+	.smlrg-l_col {width:65%;float:left;background:#E2E2E2;}
+}
+
+@media (max-width: 35em) {
+    .large_col {}
+	.medium_col {width:100%;float:left;border:solid;border-width:0 0 1px 0}
+	.small_col {width:100%;float:left;border:solid;border-width:0 0 1px 0}
+	.xsmall_col {width:50%;float:left;}
+	.full_col {}
+	
+	.smlrg-s_col {width:100%;background:#E2E2E2;}
+	.smlrg-l_col {width:100%;background:#E2E2E2;}
+
+}
+
+@media (max-width: 25em) {
+    .large_col {}
+	.medium_col {width:100%;float:left;border:solid;border-width:0 0 1px 0}
+	.small_col {width:100%;float:left;border:solid;border-width:0 0 1px 0}
+	.xsmall_col {width:50%;float:left;}
+	.full_col {}
+	
+	.smlrg-s_col {width:100%;background:#E2E2E2;}
+	.smlrg-l_col {width:100%;background:#E2E2E2;}
+
+}
+
+
