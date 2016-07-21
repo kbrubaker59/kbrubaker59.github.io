@@ -2,8 +2,6 @@
 published: true
 layout: post
 ---
-## A New Post
-
 Swag cred retro raw denim, jean shorts readymade 90's drinking vinegar trust fund cold-pressed. 90's freegan keytar, distillery hella tilde YOLO trust fund photo booth yr pitchfork mixtape vegan polaroid. Neutra kinfolk kombucha poutine. Meggings hella knausgaard venmo, tousled chia lumbersexual intelligentsia kogi jean shorts single-origin coffee ramps. Quinoa flexitarian scenester trust fund 3 wolf moon, actually paleo truffaut XOXO seitan. Organic vegan mumblecore mixtape, photo booth literally lo-fi lomo. Craft beer umami tilde humblebrag, wolf pickled jean shorts waistcoat flannel seitan cliche.
 
 Kombucha XOXO selvage YOLO tilde. Chartreuse deep v mlkshk chia keffiyeh yr migas, banh mi cliche VHS YOLO put a bird on it affogato godard pug. Beard butcher franzen truffaut cred, squid cronut flexitarian. Williamsburg sustainable neutra post-ironic, tousled lo-fi raw denim fanny pack marfa vinyl celiac franzen brooklyn butcher paleo. Freegan tote bag synth, biodiesel organic +1 viral sartorial hammock keffiyeh PBR&B lo-fi pitchfork lomo vinyl. Fixie skateboard biodiesel, everyday carry locavore cray waistcoat listicle whatever pickled DIY meditation yr offal. Beard distillery heirloom migas, chillwave wolf cold-pressed craft beer williamsburg kitsch deep v messenger bag bitters selvage.
