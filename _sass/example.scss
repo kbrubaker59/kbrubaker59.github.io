@@ -1,0 +1,31 @@
+	.half {
+		width: 75%;
+		float: left;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.half-left {
+      width: 25%;
+		background: violet;
+		padding: 20px;
+	}
+	.half-left .date {
+		color: #fff;
+	}
+	.half-left h1 {
+		margin: 0;
+		line-height: 1.2;
+		color: #fff;
+	}
+	.half-right {
+		padding: 20px;
+	}
+	.half-right p:first-child {
+		margin-top: 0;
+	}
+	.example {
+		color: #aaa;
+		text-align: center;
+		font-style: italic;
+	}
