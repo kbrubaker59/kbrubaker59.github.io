@@ -9,10 +9,16 @@ published: true
 	    Written on {{ page.date | date: "%B %e, %Y" }}
 	  </div>
       {% if page.mood %}
-      <p>Current mood:</p>
-      <div class="mood">
-      {{ page.mood }}
-      </div>
+      
+        <p>Current mood:</p>
+        {% if page.mood == "happy" %}
+      		:)
+      	{% elsif page.mood == "sad" %}
+      		:(
+      	{% else %}
+      		:$
+      	{% endif %}
+
       {% endif %}
 	</div>
 	<div class="half half-right">
