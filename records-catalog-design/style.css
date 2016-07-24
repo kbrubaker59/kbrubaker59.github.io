@@ -1,9 +1,13 @@
 /* Modified for Stephen Flemister */
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic|Open+Sans:300italic,400,300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300,300italic,700,700italic);
 @import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600,600italic,700,700italic);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic);
-
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic);
+@import url(https://fonts.googleapis.com/css?family=Teko:400,300,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Abel);
+@import url(https://fonts.googleapis.com/css?family=Six+Caps);
+@import url(https://fonts.googleapis.com/css?family=Tulpen+One);
+@import url(https://fonts.googleapis.com/css?family=Wire+One);
 /* Use for Crimson Text
 Weights 400, 600, 700
 font-family: 'Crimson Text', serif; */
@@ -15,8 +19,11 @@ font-family: 'Open Sans Condensed', sans-serif;*/
 /*
 =========== GLOBAL
 */
+html {
+	color: #99111b;
+}
 body {
-	color: #333;
+	color: #555555;
 	font-family: 'Crimson Text', sans-serif;
 	font-weight:400;
 }
@@ -27,7 +34,7 @@ body {
 /*
 =========== STRUCTURE
 */
-.site_shell {max-width: 728px;height: auto;margin:0px auto;padding:0px;}
+.container {max-width: 686px;height: auto;margin:0px auto;padding:0px;}
 
 .large_col {max-width:100%;}
 .medium_col {width:50%;float:left;}
@@ -58,12 +65,13 @@ html {
 body {
 	margin: 0;
 	padding: 0;
-	background: url(images/record-bkgd.gif) no-repeat center center fixed; 
+	background: url(images/record-bkgd.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	font-size: 14px;
+	font-size: 16px;
+	line-height: 1.8em;
 }
 
 nav {
@@ -76,19 +84,24 @@ nav {
 	margin:0px auto;
 	padding:0px;
 }
-#heading-wrapper {
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.2+0,0.01+100 */
-background: -moz-linear-gradient(top,  rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.01) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.01) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.01) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33000000', endColorstr='#03000000',GradientType=0 ); /* IE6-9 */
-overflow: hidden;
+#wrapper-header {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.2+0,0.01+100 */
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33000000',
+		endColorstr='#03000000',GradientType=0 ); /* IE6-9 */
+	overflow: hidden;
+}
+#container-header {
+	max-width: 100%;
 }
 .main {
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.4);
 	padding: 20px;
   	margin-bottom: 20px;
-	border: solid 1px #ffffff;
+  	margin-top: 20px;
+	border: solid 1px #99111b;
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
 	border-radius: 6px; /* future proofing */
@@ -98,25 +111,29 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0 auto;
 }
 h1 {
+	font-family: 'Open Sans Condensed', serif;
+	font-weight: 700;
 	font-size: 28px;
 	line-height: 28px;
 	margin: 30px auto 4px;
-	font-weight: 400;
 	text-align: center;
+	text-shadow: 0px 1px 5px #FFFFFF;
 }
 h2 {
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 70px;
-	line-height: 70px;
-	margin-bottom: 30px;
+	font-family: 'Tulpen One', sans-serif;
+	font-weight: 400;
+	font-size: 140px;
+	line-height: 140px;
 	text-align: center;
 	color: #99111b;
+	text-shadow: 0px 3px 7px #FFFFFF;
+	letter-spacing: 5px;
 }
-.box1 ul, .box1 ul li {
+.box2 ul, .box2 ul li {
 	padding: 0;
 	margin: 0;
 }
-.box1 ul li {
+.box2 ul li {
 	display: inline;
 }
 .headline {
@@ -129,10 +146,12 @@ h2 {
 	display: none;
 }*/
 .artist {
-	font-size: 21px;
+	font-size: 30px;
 }
 .record {
-	font-style: italic;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 30px;
+	color: #99111b;
 }
 
 
@@ -142,13 +161,17 @@ footer {
 	position: fixed;
 	bottom: 0;
 	width: 100%;
+	-webkit-box-shadow: 0px -5px 15px 0px rgba(153,17,27,0.5);
+	-moz-box-shadow: 0px -5px 15px 0px rgba(153,17,27,0.5);
+	box-shadow: 0px -5px 15px 0px rgba(153,17,27,0.5);
 }
 h3 {
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 24px;
-	line-height: 30px;
+	font-family: 'Tulpen One', sans-serif;
+	font-size: 30px;
 	text-align: center;
 	color: #FFFFFF;
+	letter-spacing: 5px;
+	padding: 15px 0;
 }
 
 
