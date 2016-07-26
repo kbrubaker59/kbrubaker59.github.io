@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: example
 title: 'Yep, up and running!'
 published: true
 animal: wombat
