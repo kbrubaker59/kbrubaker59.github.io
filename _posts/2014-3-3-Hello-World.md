@@ -2,6 +2,7 @@
 layout: post
 title: 'Yep, up and running!'
 published: true
+animal: wombat
 ---
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
