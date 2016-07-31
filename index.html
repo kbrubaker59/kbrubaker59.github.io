@@ -5,18 +5,25 @@ published: true
 
 <div class="posts">
   {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
+    <div class="container main">
+    <!-- LARGE 1 COLUMN -->
+      <div class="large_col">
+        <a href="{{ site.baseurl }}{{ post.url }}"><span class="artist">{{ post.artist }}</span> / 
+        <span class="record">{{ post.title }}</span></a>
+        <div class="box3">
+          <span class="purchase-date"><strong>Purchase Date: </strong>{{ post.purchase_date }}</span>
+          <a href="{{ site.baseurl }}{{ post.url }}" class="read-more clr dspblock"><span class="thoughts"><strong>Everything you need to know ...</strong></span></a>
+        </div>
       </div>
+      <!-- LARGE 1 COLUMN -->
+    </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
   {% endfor %}
+
+
+<!-- Example of for loop in class
   {% for post in site.posts %}
   <h3>{{ post.title }}</h3>
-  {% endfor %}
+  {% endfor %} -->
+
 </div>

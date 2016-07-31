@@ -1,6 +1,7 @@
 ---
 published: true
 layout: example
+artist: The Flaming Lips
 mood: whatever
 animal: wombat
 ---

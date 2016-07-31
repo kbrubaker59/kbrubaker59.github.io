@@ -26,7 +26,9 @@ body {
 .clr{
 	clear:both;
 }
-
+.dspblock {
+	display: block;
+}
 /*
 =========== STRUCTURE
 */
@@ -125,7 +127,10 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	margin: 0 auto;
 }
-h1 {
+h1,
+h1 a,
+h1 a:link,
+h1 a:visited {
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-weight: 700;
 	font-size: 28px;
@@ -133,8 +138,12 @@ h1 {
 	margin: 30px auto 4px;
 	text-align: center;
 	text-shadow: 0px 1px 5px #FFFFFF;
+	color: inherit;
 }
-h2 {
+h2,
+h2 a,
+h2 a:link,
+h2 a:visited {
 	font-family: 'Tulpen One', sans-serif;
 	font-weight: 400;
 	font-size: 140px;
@@ -144,7 +153,10 @@ h2 {
 	text-shadow: 0px 3px 7px #FFFFFF;
 	letter-spacing: 5px;
 }
-.headline-interior h1 {
+.headline-interior h1,
+.headline-interior h1 a,
+.headline-interior h1 a:link,
+.headline-interior h1 a:visited {
 	font-size: 20px;
 	line-height: 20px;
 	margin: 20px auto 20px;
@@ -164,8 +176,11 @@ ul.tracklist li {
 .headline {
 	overflow: visible;
 }
-.artist {
+a .artist,
+a:link .artist,
+a:visited .artist {
 	font-size: 30px;
+	color: #555555;
 }
 .artist-post {
 	font-size: 32px;
@@ -230,6 +245,7 @@ footer {
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 18px;
 	line-height: 18px;
+	padding: 0;
 }
 footer .large_col {
 	margin: 0 auto;

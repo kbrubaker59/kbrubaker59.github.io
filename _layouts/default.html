@@ -17,19 +17,13 @@
 
   <body>
 
-    {% include masthead.html %}
+    {% include masthead-switch.html %}
 
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
 
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
-    </div>
+    {% include footer.html %}
 
     {% include analytics.html %}
   </body>
