@@ -3,27 +3,14 @@ layout: default
 ---
 
 <article class="post">
-  <h1>{{ page.title }}</h1>
-
-  <div class="entry">
-    {{ content }}
-  </div>
-
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
-
-  {% include disqus.html %}
-</article>
-
 
 <div class="wrapper" id="wrapper-post-info">
     <div class="container" id="container-post-info">
         <!-- LARGE 1 COLUMN -->
         <div class="large_col">
             <div class="box1 post-titles">
-                <span class="artist artist-post">The Flaming Lips</span>
-                <span class="record record-post clr">Yoshimi Battles the Pink Robots</span>
+                <span class="artist artist-post">{{ page.artist }}</span>
+                <span class="record record-post clr">{{ page.title }}</span>
             </div>
             <div class="box1 post-info">
                 <span class="category"><strong>Category:</strong> Psychedelic</span> | 
@@ -56,13 +43,14 @@ layout: default
     	<div class="large_col">
             <div class="box3 post-thoughts">
                 <span class="thoughts"><strong>Everything you need to know ...</strong></span>
-                <p>Lo-fi austin stumptown gentrify scenester biodiesel taxidermy man bun, ethical crucifix. Readymade craft beer wolf, tacos affogato flexitarian kickstarter. Truffaut affogato meh everyday carry thundercats migas. Brooklyn street art DIY, helvetica poutine selvage kogi tofu food truck hella listicle authentic tumblr. Pitchfork trust fund deep v food truck, seitan farm-to-table asymmetrical street art dreamcatcher fingerstache. Intelligentsia flannel tacos, waistcoat tilde plaid raw denim single-origin coffee crucifix schlitz celiac occupy semiotics. Ramps migas keffiyeh, gluten-free meh +1 sriracha godard hella taxidermy direct trade brunch chia tote bag chartreuse.</p>
-                <p>Kale chips pop-up lo-fi, letterpress truffaut vegan direct trade. Seitan thundercats forage put a bird on it heirloom pinterest keytar. Semiotics ethical DIY crucifix, bitters pickled ennui authentic chambray narwhal cardigan. Marfa beard tote bag, whatever wayfarers health goth kinfolk PBR&B skateboard chillwave pinterest tumblr seitan. IPhone tumblr tousled, offal food truck paleo listicle flexitarian flannel church-key selfies polaroid bespoke. Synth messenger bag thundercats sustainable keffiyeh XOXO seitan selvage semiotics. Vegan tattooed DIY, normcore messenger bag fingerstache fanny pack biodiesel jean shorts.</p>
-                <p>Cornhole kinfolk pop-up, selfies fap knausgaard pug schlitz affogato. Kogi pickled chambray quinoa. Cred fanny pack quinoa, mixtape four dollar toast single-origin coffee keffiyeh polaroid vegan farm-to-table bushwick vice cold-pressed. Typewriter tumblr cronut pabst, twee offal four loko readymade salvia freegan banh mi. Deep v hammock poutine, direct trade man braid forage venmo everyday carry skateboard actually celiac vice pickled. Pinterest health goth thundercats taxidermy, cliche leggings hashtag farm-to-table letterpress. Echo park ugh ennui gentrify.</p>
-                <p>Pickled biodiesel selfies farm-to-table, four dollar toast tilde direct trade before they sold out pitchfork knausgaard wolf VHS irony pabst flannel. Freegan offal yuccie, deep v four loko pour-over tilde iPhone art party blog shabby chic. Sriracha cardigan craft beer tumblr, affogato pinterest try-hard DIY vice. Raw denim heirloom taxidermy kogi man braid, neutra yr direct trade chia four loko austin next level. Tumblr pinterest mustache, kinfolk normcore roof party kitsch pork belly literally kale chips. Disrupt pinterest polaroid gochujang banh mi austin schlitz hoodie neutra. Fanny pack occupy bushwick ramps, fap authentic try-hard tousled church-key.</p>
+                {{ content }}
+                <p><em>Written on {{ page.date | date: "%B %e, %Y" }}</em></p>
             </div>
         </div>
     	<!-- LARGE 1 COLUMN -->
     </div>
 
 </div>
+
+  {% include disqus.html %}
+</article>

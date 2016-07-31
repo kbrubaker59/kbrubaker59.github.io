@@ -1,9 +1,18 @@
 main:
-  - title: "Wombats"
-  - url: /wombats
+  - title: "Pre-Beatles"
+  - url: /pre-beatles
 
-  - title: "Blog"
-  - url: /
+  - title: "Post-Beatles"
+  - url: /post-beatles
 
-  - title: "About"
-  - url: #
+  - title: "Punk"
+  - url: /punk
+
+  - title: "Post-Punk"
+  - url: /post-punk
+
+  - title: "Alternative"
+  - url: /alternative
+
+  - title: "Post-Boy Band"
+  - url: /post-boy-band

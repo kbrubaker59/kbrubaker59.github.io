@@ -262,7 +262,7 @@ h3 {
 
 nav {
 	color: #ffffff;
-	display: none;
+	/*display: none;*/
 }
 nav a, nav a:link, nav a:visited {
 	color: #ffffff;
@@ -273,6 +273,7 @@ nav a, nav a:link, nav a:visited {
 	margin: 0;
 	width: 33.333%;
 	line-height: 40px;
+	float: left;
 }
 nav a:hover {
 	color: #99111b;
