@@ -13,27 +13,19 @@ layout: default
                 <span class="record record-post clr">{{ page.title }}</span>
             </div>
             <div class="box1 post-info">
-                <span class="category"><strong>Category:</strong> Psychedelic</span> | 
-                <span class="label"><strong>Record Label:</strong> Warner Bros. Records</span> | 
-                <span class="year-released"><strong>Year Released:</strong> 2002</span> | 
-                <span class="purchase-date"><strong>Purchase Date:</strong> 2003</span> | 
-                <span class="purchase-amount clr"><strong>Purchase Amount:</strong> $15.00</span>
+                <span class="category"><strong>Category:</strong> {{ page.category }}</span> | 
+                <span class="label"><strong>Record Label:</strong> {{ page.record_label }}</span> | 
+                <span class="year-released"><strong>Year Released:</strong> {{ page.year_released }}</span> | 
+                <span class="purchase-date"><strong>Purchase Date:</strong> {{ page.purchase_date }}</span> | 
+                <span class="purchase-amount clr"><strong>Purchase Amount:</strong> {{ page.purchase_amount }}</span>
             </div>
             <div class="box1 post-tracks">
                 <span class="tracks"><strong>Tracks:</strong></span>
                 <ul class="tracklist clr">
-                    <li>01-<i>Fight Test</i></li> | 
-                    <li>02-<i>One More Robot/Sympathy 3000-21</i></li> | 
-                    <li>03-<i>Yoshimi Battles the Pink Robots pt. 1</i></li> | 
-                    <li>04-<i>Yoshimi Battles the Pink Robots pt. 2</i></li> | 
-                    <li>05-<i>In the Morning of the Magicians</i></li> | 
-                    <li>06-<i>Ego Tripping at the Gates of Hell</i></li> | 
-                    <li>07-<i>Are You a Hypnotist</i></li> | 
-                    <li>08-<i>It&rsquo;s Summertime</i></li> | 
-                    <li>09-<i>Do You Realize??</i></li> | 
-                    <li>10-<i>All We Have Is Now</i></li> | 
-                    <li>11-<i>Approaching Pavonis Mons by Balloon (Utopia Planitia)</i></li>
-                </ul>
+                    {% for track in page.tracks %}
+                    <li><i style="white-space: nowrap">{{ track }}</i></li> | 
+                    {% endfor %}
+               </ul>
             </div>
         </div>
     </div>

@@ -1,18 +1,18 @@
 main:
   - title: "Pre-Beatles"
-  - url: /pre-beatles
+    url: /pre-beatles
 
   - title: "Post-Beatles"
-  - url: /post-beatles
+    url: /post-beatles
 
   - title: "Punk"
-  - url: /punk
+    url: /punk
 
   - title: "Post-Punk"
-  - url: /post-punk
+    url: /post-punk
 
   - title: "Alternative"
-  - url: /alternative
+    url: /alternative
 
   - title: "Post-Boy Band"
-  - url: /post-boy-band
+    url: /post-boy-band
