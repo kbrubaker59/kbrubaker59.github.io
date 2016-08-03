@@ -1,24 +1,24 @@
 ---
 layout: post
-title: "[self-titled]"
-artist: Stone Roses
-category: Post-Punk
-record_label: Silvertone Records Limited
-year_released: 1989
+title: '[self-titled]'
+artist: 'Stone Roses'
+revolution: 'Post-Punk'
+record_label: 'Silvertone Records Limited'
+year_released: '1989'
 purchase_date: 
 purchase_amount: 
 tracks:
-  - 01-I Wanna Be Adored
-  - 02-She Bangs the Drums
-  - 03-Waterfall
-  - 04-Don&rsquo;t Stop
-  - 05-Bye Bye Badman
-  - 06-Elizabeth My Dear
-  - 07-(Song for My) Sugar Spun Sister
-  - 08-Made of Stone
-  - 09-Shoot You Down
-  - 10-This Is the One
-  - 11-I Am the Resurrection
+  - '01-I Wanna Be Adored'
+  - '02-She Bangs the Drums'
+  - '03-Waterfall'
+  - '04-Don&rsquo;t Stop'
+  - '05-Bye Bye Badman'
+  - '06-Elizabeth My Dear'
+  - '07-(Song for My) Sugar Spun Sister'
+  - '08-Made of Stone'
+  - '09-Shoot You Down'
+  - '10-This Is the One'
+  - '11-I Am the Resurrection'
 published: true
 ---
 
