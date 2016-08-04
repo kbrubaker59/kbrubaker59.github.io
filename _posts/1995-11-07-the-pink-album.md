@@ -1,22 +1,22 @@
 ---
 layout: post
-title: "[the pink album]"
-artist: Sunny Day Real Estate
-category: Alternative
-record_label: SUB POP
-year_released: 1995
+title: '[the pink album]'
+artist: 'Sunny Day Real Estate'
+category: 'Alternative'
+record_label: 'SUB POP'
+year_released: '1995'
 purchase_date: 
 purchase_amount: 
 tracks:
-  - 01-Friday
-  - 02-Theo B
-  - 03-Red Elephant
-  - 04-5/4
-  - 05-Waffle
-  - 06-8
-  - 07-Iscarabaid
-  - 08-J&rsquo;nuh
-  - 09-Rodeo Jones
+  - '01-Friday'
+  - '02-Theo B'
+  - '03-Red Elephant'
+  - '04-5/4'
+  - '05-Waffle'
+  - '06-8'
+  - '07-Iscarabaid'
+  - '08-J&rsquo;nuh'
+  - '09-Rodeo Jones'
 published: true
 ---
 

@@ -1,23 +1,23 @@
 ---
 layout: post
-title: An Awesome Wave
-artist: alt-J
-category: Post-Boy Band
-record_label: Infectious Music LTD
-year_released: 2012
+title: 'An Awesome Wave'
+artist: 'alt-J'
+category: 'Post-Boy Band'
+record_label: 'Infectious Music LTD'
+year_released: '2012'
 purchase_date: 
 purchase_amount: 
 tracks:
-  - 01-Intro
-  - 02-Tessellate
-  - 03-Breezeblocks
-  - 04-Something Good
-  - 05-Dissolve Me
-  - 06-Matilda
-  - 07-MS
-  - 08-Fitzpleasure
-  - 09-Bloodflood
-  - 10-Taro
+  - '01-Intro'
+  - '02-Tessellate'
+  - '03-Breezeblocks'
+  - '04-Something Good'
+  - '05-Dissolve Me'
+  - '06-Matilda'
+  - '07-MS'
+  - '08-Fitzpleasure'
+  - '09-Bloodflood'
+  - '10-Taro'
 published: true
 ---
 

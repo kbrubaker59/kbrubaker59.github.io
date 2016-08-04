@@ -1,24 +1,24 @@
 ---
 layout: post
-title: The Monitor
+title: 'The Monitor'
 subtitle: 
-artist: Titus Andronicus
-category: Post-Boy Band
-record_label: XL Recordings
-year_released: 2010
+artist: 'Titus Andronicus'
+category: 'Post-Boy Band'
+record_label: 'XL Recordings'
+year_released: '2010'
 purchase_date: 
 purchase_amount: 
 tracks:
-  - 01-A More Perfect Union
-  - 02-Titus Andronicus Forever
-  - "03-No Future part Three: Escape from No Future"
-  - 04-Richard II
-  - 05-A Pot in Which to Piss
-  - 06-Four Score and Seven
-  - "07-Theme from &ldquo;Cheers&rdquo;"
-  - 08-To Old Friends and New
-  - 09-...And Ever
-  - 10-The Battle of Hampton Roads
+  - '01-A More Perfect Union'
+  - '02-Titus Andronicus Forever'
+  - '03-No Future part Three: Escape from No Future'
+  - '04-Richard II'
+  - '05-A Pot in Which to Piss'
+  - '06-Four Score and Seven'
+  - '07-Theme from &ldquo;Cheers&rdquo;'
+  - '08-To Old Friends and New'
+  - '09-...And Ever'
+  - '10-The Battle of Hampton Roads'
 published: true
 ---
 

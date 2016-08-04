@@ -1,24 +1,24 @@
 ---
 layout: post
-title: Nocturama
+title: 'Nocturama'
 subtitle: 
-artist: Nick Cave and the Bad Seeds
-category: Post-Punk
-record_label: Mute Records Limited
-year_released: 2003
+artist: 'Nick Cave and the Bad Seeds'
+category: 'Post-Punk'
+record_label: 'Mute Records Limited'
+year_released: '2003'
 purchase_date: 
 purchase_amount: 
 tracks:
-  - 01-Wonderful Life
-  - 02-He Wants You
-  - 03-Right Out of Your Hand
-  - 04-Bring It On
-  - 05-Dead Man in My Bed
-  - 06-Still in Love
-  - 07-There Is a Town
-  - 08-Rock of Gibraltar
-  - 09-She Passed By My Window
-  - 10-Babe, I&rsquo; On Fire
+  - '01-Wonderful Life'
+  - '02-He Wants You'
+  - '03-Right Out of Your Hand'
+  - '04-Bring It On'
+  - '05-Dead Man in My Bed'
+  - '06-Still in Love'
+  - '07-There Is a Town'
+  - '08-Rock of Gibraltar'
+  - '09-She Passed By My Window'
+  - '10-Babe, I&rsquo; On Fire'
 published: true
 ---
 

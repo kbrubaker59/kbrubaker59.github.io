@@ -1,22 +1,22 @@
 ---
 layout: post
-title: Bitte-Orca
-artist: Dirty Projectors
-category: Post-Boy Band
-record_label: Domino Recording Company LTD
-year_released: 2009
-purchase_date: 2016/??/??
-purchase_amount: ??
+title: 'Bitte-Orca'
+artist: 'Dirty Projectors'
+category: 'Post-Boy Band'
+record_label: 'Domino Recording Company LTD'
+year_released: '2009'
+purchase_date: 
+purchase_amount: 
 tracks:
-  - 01-Cannibal Resource
-  - 02-Temecula Sunrise
-  - 03-The Bride
-  - 04-Stillness Is the Move
-  - 05-Two Doves
-  - 06-Useful Chamber
-  - 07-No Intention
-  - 08-Remade Horizon
-  - 09-Fluorescent Half Dome
+  - '01-Cannibal Resource'
+  - '02-Temecula Sunrise'
+  - '03-The Bride'
+  - '04-Stillness Is the Move'
+  - '05-Two Doves'
+  - '06-Useful Chamber'
+  - '07-No Intention'
+  - '08-Remade Horizon'
+  - '09-Fluorescent Half Dome'
 published: true
 ---
 

@@ -1,24 +1,24 @@
 ---
 layout: post
-title: "[self-titled]"
+title: '[self-titled]'
 subtitle: 
-artist: Sylvan Esso
-category: Post-Boy Band
-record_label: Partisan Records LLC
-year_released: 2014
+artist: 'Sylvan Esso'
+category: 'Post-Boy Band'
+record_label: 'Partisan Records LLC'
+year_released: '2014'
 purchase_date: 
 purchase_amount: 
 tracks:
-  - 01-Hey Mami
-  - 02-Dreamy Bruises
-  - 03-Could I Be
-  - 04-Wolf
-  - 05-Dress
-  - 06-H.S.K.T.
-  - 07-Coffee
-  - 08-Uncatena
-  - 09-Play It Right
-  - 10-Come Down
+  - '01-Hey Mami'
+  - '02-Dreamy Bruises'
+  - '03-Could I Be'
+  - '04-Wolf'
+  - '05-Dress'
+  - '06-H.S.K.T.'
+  - '07-Coffee'
+  - '08-Uncatena'
+  - '09-Play It Right'
+  - '10-Come Down'
 published: true
 ---
 

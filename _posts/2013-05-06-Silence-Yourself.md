@@ -1,25 +1,25 @@
 ---
 layout: post
-title: Silence Yourself
+title: 'Silence Yourself'
 subtitle: 
-artist: Savages
-category: Post-Boy Band
-record_label: Pop Noire
-year_released: 2013
+artist: 'Savages'
+category: 'Post-Boy Band'
+record_label: 'Pop Noire'
+year_released: '2013'
 purchase_date: 
 purchase_amount: 
 tracks:
-  - 01-Shut Up
-  - 02-I Am Here
-  - 03-City&rsquo;s Full
-  - 04-Strife
-  - 05-Waiting for a Sign
-  - 06-Dead Nature
-  - 07-She Will
-  - 08-No Face
-  - 09-Hit Me
-  - 10-Husbands
-  - 11-Marshall Dear
+  - '01-Shut Up'
+  - '02-I Am Here'
+  - '03-City&rsquo;s Full'
+  - '04-Strife'
+  - '05-Waiting for a Sign'
+  - '06-Dead Nature'
+  - '07-She Will'
+  - '08-No Face'
+  - '09-Hit Me'
+  - '10-Husbands'
+  - '11-Marshall Dear'
 published: true
 ---
 

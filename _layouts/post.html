@@ -13,17 +13,37 @@ layout: default
                 <span class="record record-post clr">{{ page.title }}</span>
             </div>
             <div class="box1 post-info">
+
+                {% if page.revolution %}
                 <span class="revolution"><strong>Revolution:</strong> {{ page.revolution }}</span> | 
+                {% endif %}
+
+                {% if page.record_label %}
                 <span class="label"><strong>Record Label:</strong> {{ page.record_label }}</span> | 
+                {% endif %}
+
+                {% if page.year_released %}
                 <span class="year-released"><strong>Year Released:</strong> {{ page.year_released }}</span> | 
+                {% endif %}
+
+                {% if page.purchase_date %}
                 <span class="purchase-date"><strong>Purchase Date:</strong> {{ page.purchase_date }}</span> | 
+                {% endif %}
+
+                {% if page.purchase_amount %}
                 <span class="purchase-amount clr"><strong>Purchase Amount:</strong> {{ page.purchase_amount }}</span>
+                {% endif %}
+
             </div>
             <div class="box1 post-tracks">
                 <span class="tracks"><strong>Tracks:</strong></span>
                 <ul class="tracklist clr">
                     {% for track in page.tracks %}
+                    {% if forloop.last %}
+                    <li><i style="white-space: nowrap">{{ track }}</i></li>
+                    {% else %}
                     <li><i style="white-space: nowrap">{{ track }}</i></li> | 
+                    {% endif %}
                     {% endfor %}
                </ul>
             </div>

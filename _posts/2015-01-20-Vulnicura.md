@@ -1,23 +1,23 @@
 ---
 layout: post
-title: Vulnicura
+title: 'Vulnicura'
 subtitle: 
-artist: Bj&ouml;rk
-category: Alternative
-record_label: One Little Indian Records
-year_released: 2015
+artist: 'Bj&ouml;rk'
+category: 'Alternative'
+record_label: 'One Little Indian Records'
+year_released: '2015'
 purchase_date: 
 purchase_amount: 
 tracks:
-  - 01-Stonemilker
-  - 02-Lionsong
-  - 03-History of Touches
-  - 04-Black lake
-  - 05-Family
-  - 06-Notget
-  - 07-Atom Dance
-  - 08-Mouth Mantra
-  - 09-Quicksand
+  - '01-Stonemilker'
+  - '02-Lionsong'
+  - '03-History of Touches'
+  - '04-Black lake'
+  - '05-Family'
+  - '06-Notget'
+  - '07-Atom Dance'
+  - '08-Mouth Mantra'
+  - '09-Quicksand'
 published: true
 ---
 

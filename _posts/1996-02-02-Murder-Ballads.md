@@ -1,24 +1,24 @@
 ---
 layout: post
-title: Murder Ballads
+title: 'Murder Ballads'
 subtitle: 
-artist: Nick Cave and the Bad Seeds
-category: Post-Punk
-record_label: Mute Records LTD
-year_released: 2011
+artist: 'Nick Cave and the Bad Seeds'
+category: 'Post-Punk'
+record_label: 'Mute Records LTD'
+year_released: '2011'
 purchase_date: 
 purchase_amount: 
 tracks:
-  - 01-Song of Joy
-  - 02-Henry Lee
-  - 03-Lovely Creature
-  - 04-Stagger Lee
-  - 05-Where the Wild Roses Grow
-  - 06-The Curse of Millhaven
-  - 07-The Kindness of Strangers
-  - 08-Crow Jane
-  - 09-O&rsquo;Malley&rsquo;s Bar
-  - 10-Death Is Not the End
+  - '01-Song of Joy'
+  - '02-Henry Lee'
+  - '03-Lovely Creature'
+  - '04-Stagger Lee'
+  - '05-Where the Wild Roses Grow'
+  - '06-The Curse of Millhaven'
+  - '07-The Kindness of Strangers'
+  - '08-Crow Jane'
+  - '09-O&rsquo;Malley&rsquo;s Bar'
+  - '10-Death Is Not the End'
 published: true
 ---
 

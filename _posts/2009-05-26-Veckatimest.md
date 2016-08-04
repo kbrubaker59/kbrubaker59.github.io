@@ -1,25 +1,25 @@
 ---
 layout: post
-title: Veckatimest
-artist: Grizzly Bear
-category: Post-Boy Band
-record_label: Warp Records Limited
-year_released: 2009
-purchase_date: 2016/??/??
-purchase_amount: ??
+title: 'Veckatimest'
+artist: 'Grizzly Bear'
+category: 'Post-Boy Band'
+record_label: 'Warp Records Limited'
+year_released: '2009'
+purchase_date: 
+purchase_amount: 
 tracks:
-  - 01-Southern Point
-  - 02-Two Weeks
-  - 03-All We Ask
-  - 04-Fine for Now
-  - 05-Cheerleader
-  - 06-Dory
-  - 07-Ready, Able
-  - 08-About Face
-  - 09-Hold Still
-  - 10-While You Wait for the Others
-  - 11-I Live with You
-  - 12-Foreground
+  - '01-Southern Point'
+  - '02-Two Weeks'
+  - '03-All We Ask'
+  - '04-Fine for Now'
+  - '05-Cheerleader'
+  - '06-Dory'
+  - '07-Ready, Able'
+  - '08-About Face'
+  - '09-Hold Still'
+  - '10-While You Wait for the Others'
+  - '11-I Live with You'
+  - '12-Foreground'
 published: true
 ---
 

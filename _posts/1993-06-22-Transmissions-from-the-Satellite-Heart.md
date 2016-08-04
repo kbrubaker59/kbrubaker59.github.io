@@ -1,25 +1,25 @@
 ---
 layout: post
-title: Transmissions from the Satellite Heart
-subtitle: Featuring the Absolute Sounds of 
-artist: The Flaming Lips
-category: Alternative
-record_label: Warner Bros. Records Inc.
-year_released: 1993
+title: 'Transmissions from the Satellite Heart'
+subtitle: 'Featuring the Absolute Sounds of '
+artist: 'The Flaming Lips'
+category: 'Alternative'
+record_label: 'Warner Bros. Records Inc.'
+year_released: '1993'
 purchase_date: 
 purchase_amount: 
 tracks:
-  - 01-Turn It On
-  - 02-Pilot Can at the Queer of God
-  - 03-Oh My Pregnant Head Labia in the Sunlight ...
-  - 04-She Don&rsquo;t Use Jelly
-  - 05-Chewin the Apple of Your Eye
-  - 06-Superhumans
-  - 07-Be My Head
-  - 08-Moth in the Incubator
-  - 09-Plastic Jesus
-  - 10-When Yer Twenty Two
-  - 11-Slow Nerve Action
+  - '01-Turn It On'
+  - '02-Pilot Can at the Queer of God'
+  - '03-Oh My Pregnant Head Labia in the Sunlight ...'
+  - '04-She Don&rsquo;t Use Jelly'
+  - '05-Chewin the Apple of Your Eye'
+  - '06-Superhumans'
+  - '07-Be My Head'
+  - '08-Moth in the Incubator'
+  - '09-Plastic Jesus'
+  - '10-When Yer Twenty Two'
+  - '11-Slow Nerve Action'
 published: true
 ---
 

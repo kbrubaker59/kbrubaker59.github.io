@@ -1,21 +1,21 @@
 ---
 layout: post
-title: "From Her to Eternity"
+title: 'From Her to Eternity'
 subtitle: 
-artist: "Nick Cave"
-revolution: "Post-Punk"
-record_label: "BMG"
-year_released: "1984"
+artist: 'Nick Cave'
+revolution: 'Post-Punk'
+record_label: 'BMG'
+year_released: '1984'
 purchase_date: 
 purchase_amount: 
 tracks:
-  - "01-Avalanche"
-  - "02-Cabin Fever!"
-  - "03-Well of Misery"
-  - "04-From Her to Eternity"
-  - "05-Saint Huck"
-  - "06-Wings Off Flies"
-  - "07-A Box for Black Paul"
+  - '01-Avalanche'
+  - '02-Cabin Fever!'
+  - '03-Well of Misery'
+  - '04-From Her to Eternity'
+  - '05-Saint Huck'
+  - '06-Wings Off Flies'
+  - '07-A Box for Black Paul'
 published: true
 ---
 

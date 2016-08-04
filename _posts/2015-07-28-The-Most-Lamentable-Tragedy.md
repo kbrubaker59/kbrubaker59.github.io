@@ -1,47 +1,47 @@
 ---
 layout: post
-title: The Most Lamentable Tragedy
-subtitle: A Rock Opera in Five Acts
-artist: Titus Andronicus
-category: Post-Boy Band
-record_label: Merge Records
-year_released: 2015
+title: 'The Most Lamentable Tragedy'
+subtitle: 'A Rock Opera in Five Acts'
+artist: 'Titus Andronicus'
+category: 'Post-Boy Band'
+record_label: 'Merge Records'
+year_released: '2015'
 purchase_date: 
 purchase_amount: 
 tracks:
-  - "ACT I:"
-  - 01-The Angry Hour
-  - "02-No Future Part IV: No Future Triumphant"
-  - 03-Stranded (On My Own)
-  - 04-Lonely Boy
-  - 05-I Lost My Mind
-  - 06-Look Alike
-  - "ACT II:"
-  - 07-The Magic Morning
-  - 08-Lookalike
-  - 09-I Lost My Mind
-  - 10-Mr. E. Mann
-  - 11-Fired Up
-  - 12-Dimed Out
-  - 13-More Perfect Union
-  - "ACT III:"
-  - 14-Sun Salutation
-  - "15-(S)HE SAID/(S)HE SAID"
-  - 16-Funny Feeling
-  - 17-Fatal Flaw
-  - 18-Please
-  - "ACT IV:"
-  - 19-Come On, Siobh&aacute;n
-  - 20-A Pair of Brown Eyes
-  - 21-Auld Lang Syne
-  - "22-I&rsquo;m Going Insane (Finish Him)"
-  - "ACT V:"
-  - 23-The Fall
-  - "24-Into The Voide (Filler)"
-  - "25-No Future Part V: In Endless Dreaming"
-  - "26-[ seven seconds ]"
-  - 27-Stable Boy
-  - 28-A Moral
+  - 'ACT I:'
+  - '01-The Angry Hour'
+  - '02-No Future Part IV: No Future Triumphant'
+  - '03-Stranded (On My Own)'
+  - '04-Lonely Boy'
+  - '05-I Lost My Mind'
+  - '06-Look Alike'
+  - 'ACT II:'
+  - '07-The Magic Morning'
+  - '08-Lookalike'
+  - '09-I Lost My Mind'
+  - '10-Mr. E. Mann'
+  - '11-Fired Up'
+  - '12-Dimed Out'
+  - '13-More Perfect Union'
+  - 'ACT III:'
+  - '14-Sun Salutation'
+  - '15-(S)HE SAID/(S)HE SAID'
+  - '16-Funny Feeling'
+  - '17-Fatal Flaw'
+  - '18-Please'
+  - 'ACT IV:'
+  - '19-Come On, Siobh&aacute;n'
+  - '20-A Pair of Brown Eyes'
+  - '21-Auld Lang Syne'
+  - '22-I&rsquo;m Going Insane (Finish Him)'
+  - 'ACT V:'
+  - '23-The Fall'
+  - '24-Into The Voide (Filler)'
+  - '25-No Future Part V: In Endless Dreaming'
+  - '26-[ seven seconds ]'
+  - '27-Stable Boy'
+  - '28-A Moral'
 published: true
 ---
 

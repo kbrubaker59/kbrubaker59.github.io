@@ -1,24 +1,24 @@
 ---
 layout: post
-title: Yoshimi Battles the Pink Robots
-artist: The Flaming Lips
-category: Alternative
-record_label: Warner Bros. Records Inc.
-year_released: 2002
-purchase_date: 2003/??/??
-purchase_amount: ??
-tracks:
-  - 01-Fight Test
-  - 02-One More Robot/Sympathy 3000-21
-  - 03-Yoshimi Battles the Pink Robots pt. 1
-  - 04-Yoshimi Battles the Pink Robots pt. 2
-  - 05-In the Morning of the Magicians
-  - 06-Ego Tripping at the Gates of Hell
-  - 07-Are You a Hypnotist?
-  - 08-It's Summertime
-  - 09-Do You Realize??
-  - 10-All We Have Is Now
-  - 11-Approaching Pavonis Mons by Balloon (Utopia Planitia)
+title: 'Yoshimi Battles the Pink Robots'
+artist: 'The Flaming Lips'
+category: 'Alternative'
+record_label: 'Warner Bros. Records Inc.'
+year_released: '2002'
+purchase_date: 
+purchase_amount: 
+tracks: 
+  - '01-Fight Test'
+  - '02-One More Robot/Sympathy 3000-21'
+  - '03-Yoshimi Battles the Pink Robots pt. 1'
+  - '04-Yoshimi Battles the Pink Robots pt. 2'
+  - '05-In the Morning of the Magicians'
+  - '06-Ego Tripping at the Gates of Hell'
+  - '07-Are You a Hypnotist?'
+  - '08-It&rsquo;s Summertime'
+  - '09-Do You Realize??'
+  - '10-All We Have Is Now'
+  - '11-Approaching Pavonis Mons by Balloon (Utopia Planitia)'
 published: true
 ---
 

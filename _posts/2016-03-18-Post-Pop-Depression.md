@@ -1,22 +1,22 @@
 ---
 layout: post
-title: Post Pop Depression
-artist: Iggy Pop
-category: Punk
-record_label: IGHO, LLC
-year_released: 2016
-purchase_date: 2016/??/??
-purchase_amount: ??
+title: 'Post Pop Depression'
+artist: 'Iggy Pop'
+category: 'Punk'
+record_label: 'IGHO, LLC'
+year_released: '2016'
+purchase_date: 
+purchase_amount: 
 tracks:
-  - 01-Break into Your Heart
-  - 02-Gardenia
-  - 03-American Valhalla
-  - 04-In the Lobby
-  - 05-Sunday
-  - 06-Vulture
-  - 07-German Days
-  - 08-Chocolate Drops
-  - 09-Paraguay
+  - '01-Break into Your Heart'
+  - '02-Gardenia'
+  - '03-American Valhalla'
+  - '04-In the Lobby'
+  - '05-Sunday'
+  - '06-Vulture'
+  - '07-German Days'
+  - '08-Chocolate Drops'
+  - '09-Paraguay'
 published: true
 ---
 
