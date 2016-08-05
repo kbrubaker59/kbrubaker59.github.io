@@ -84,3 +84,9 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+# Collections
+collections:
+  albums:
+    output: true
+    permalink: /albums/:path/

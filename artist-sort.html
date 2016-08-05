@@ -4,11 +4,10 @@ published: true
 ---
 
 <div class="posts">
-	{% assign sorted_albums = (site.albums | sort: 'year_released') %}
+	{% assign sorted_albums = (site.albums | sort: 'artist') %}
     {% for album in sorted_albums %}
     	{% include album-sort-content.html %}
     {% endfor %}
-
 
 <!-- Example of for loop in class
   {% for post in site.posts %}
