@@ -8,15 +8,14 @@ published: true
   		<span>Sort by:&nbsp; 
   		<a href="/sort-artist">Artist</a> &nbsp;|&nbsp;
   		<a href="/sort-title">Album Title</a> &nbsp;|&nbsp;
-  		<a href="/" class="on-page">Release Date</a> &nbsp;|&nbsp;
-  		<a href="/sort-label">Record Label</a> &nbsp;|&nbsp;
+  		<a href="/">Release Date</a> &nbsp;|&nbsp;
+  		<a href="/sort-label" class="on-page">Record Label</a> &nbsp;|&nbsp;
   		<a href="/sort-revolution">Revolution</a>
   	</div>
-	{% assign sorted_albums = (site.albums | sort: 'year_released' | reverse ) %}
+	{% assign sorted_albums = (site.albums | sort: 'record_label') %}
     {% for album in sorted_albums %}
     	{% include album-sort-content.html %}
     {% endfor %}
-
 
 <!-- Example of for loop in class
   {% for post in site.posts %}

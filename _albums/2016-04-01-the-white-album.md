@@ -8,6 +8,10 @@ record_label: 'Crush Music'
 year_released: '2016'
 purchase_date: 
 purchase_amount: 
+album_imgs: 
+# Make sure cover is the first image. 
+  - 'weezer-the-white-album-cover.jpg'
+  - 'weezer-the-white-album-cover2.jpg'
 tracks:
   - '01-california kids'
   - '02-wind in our sail'

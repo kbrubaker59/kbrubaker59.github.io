@@ -1,12 +1,14 @@
-    <div class="container main">
-    <!-- LARGE 1 COLUMN -->
-      <div class="large_col">
-        <a href="{{ site.baseurl }}{{ album.url }}"><span class="artist">{{ album.artist }}</span> / 
-        <span class="record">{{ album.title }}</span></a>
-        <div class="box3">
-          <span class="release-date"><strong>Release Date: </strong>{{ album.release_date }}</span>
-          <a href="{{ site.baseurl }}{{ album.url }}" class="read-more clr dspblock"><span class="thoughts"><strong>Everything you need to know ...</strong></span></a>
-        </div>
-      </div>
-      <!-- LARGE 1 COLUMN -->
+<div class="container main">
+  <div class="large_col">
+  	{% for img in album.album_imgs %}
+  	{% if forloop.first %}
+  	<div class="cover"><img src="/images{{ album.url }}{{img}}" /></div>
+  	{% endif %}
+  	{% endfor %}
+    <div class="site-and-album"><a href="{{ site.baseurl }}{{ album.url }}"><span class="artist">{{ album.artist }}</span> | 
+    <span class="record">{{ album.title }}</span></a></div>
+    <div class="box3">
+      <span class="release-date"><strong>Release Date: </strong>{{ album.release_date }}</span> &nbsp;|&nbsp; <span class="label"><strong>Record Label: </strong>{{ album.record_label }}</span> &nbsp;|&nbsp; <span class="revolution"><strong>Revolution: </strong>{{ album.revolution }}</span>
     </div>
+  </div>
+</div>

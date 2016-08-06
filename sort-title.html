@@ -4,6 +4,14 @@ published: true
 ---
 
 <div class="posts">
+  	<div class="sort-menu">
+  		<span>Sort by:&nbsp; 
+  		<a href="/sort-artist">Artist</a> &nbsp;|&nbsp;
+  		<a href="/sort-title" class="on-page">Album Title</a> &nbsp;|&nbsp;
+  		<a href="/">Release Date</a> &nbsp;|&nbsp;
+  		<a href="/sort-label">Record Label</a> &nbsp;|&nbsp;
+  		<a href="/sort-revolution">Revolution</a>
+  	</div>
 	{% assign sorted_albums = (site.albums | sort: 'title') %}
     {% for album in sorted_albums %}
     	{% include album-sort-content.html %}

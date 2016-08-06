@@ -6,6 +6,7 @@ artist: 'Nick Cave'
 revolution: 'Post-Punk'
 record_label: 'BMG'
 year_released: '1984'
+release_date: '6/4/1984'
 purchase_date: 
 purchase_amount: 
 tracks:

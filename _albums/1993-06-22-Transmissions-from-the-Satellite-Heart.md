@@ -3,7 +3,7 @@ layout: post
 title: 'Transmissions from the Satellite Heart'
 subtitle: 'Featuring the Absolute Sounds of '
 artist: 'The Flaming Lips'
-category: 'Alternative'
+revolution: 'Alternative'
 record_label: 'Warner Bros. Records Inc.'
 year_released: '1993'
 purchase_date: 
