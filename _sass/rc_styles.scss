@@ -161,14 +161,17 @@ h2 a:visited {
 	overflow: hidden;
 }
 .main:hover {
-	-webkit-box-shadow: 0px 10px 70px 0px rgba(255,255,255,1.0);
+	-webkit-box-shadow: 0px 10px 70px 0px rgba(99,202,196,0.7);
+	-moz-box-shadow: 0px 10px 70px 0px rgba(99,202,196,0.7);
+	box-shadow: 0px 10px 70px 0px rgba(99,202,196,0.7);
+/*	-webkit-box-shadow: 0px 10px 70px 0px rgba(255,255,255,1.0);
 	-moz-box-shadow: 0px 10px 70px 0px rgba(255,255,255,1.0);
 	box-shadow: 0px 10px 70px 0px rgba(255,255,255,1.0);
-/*	-webkit-box-shadow: 0px 20px 200px 0px rgba(1,116,130,0.5); 
+	-webkit-box-shadow: 0px 20px 200px 0px rgba(1,116,130,0.5); 
 	-moz-box-shadow: 0px 20px 200px 0px rgba(1,116,130,0.5);
 	box-shadow: 0px 20px 200px 0px rgba(1,116,130,0.5); */
 	background-color: #fff;
-	border: solid 1px #017482;
+	border: solid 1px $seafoam;
 }
 #container-post {
 	background-color: rgba(255, 255, 255, 0.4);
@@ -258,7 +261,7 @@ box3 {
 .main:hover a .artist,
 .main:hover a:link .artist,
 .main:hover a:visited .artist {
-	color: #017482;
+	color: $seafoam;
 }
 .sort menu a,
 .sort-menu a:link,
@@ -266,11 +269,11 @@ box3 {
 }
 .sort-menu a:hover,
 .sort-menu a:active {
-	border-bottom: 1px $red solid;
+	border-bottom: 1px $black solid;
 }
 a.on-page {
 	color: $gray;
-	border-bottom: 1px $gray solid;
+	border-bottom: 1px $black solid;
 }
 .site-and-album a,
 .site-and-album a:link,
@@ -280,6 +283,12 @@ a.on-page {
 	font-size: 22px;
 }
 
+
+
+
+
+
+/* ============  footer  ============= */
 
 footer {
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#99111b+0,51090a+100 */
