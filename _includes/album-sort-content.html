@@ -8,7 +8,7 @@
     <div class="site-and-album"><a href="{{ site.baseurl }}{{ album.url }}"><span class="artist">{{ album.artist }}</span> | 
     <span class="record">{{ album.title }}</span></a></div>
     <div class="box3">
-      <span class="release-date"><strong>Release Date: </strong>{{ album.release_date }}</span> &nbsp;|&nbsp; <span class="label"><strong>Record Label: </strong>{{ album.record_label }}</span> &nbsp;|&nbsp; <span class="revolution"><strong>Revolution: </strong>{{ album.revolution }}</span>
+      <span class="release-date"><strong>Release Date: </strong>{{ album.release_date | date: "%B %e, %Y" }}</span> &nbsp;|&nbsp; <span class="label"><strong>Record Label: </strong>{{ album.record_label }}</span> &nbsp;|&nbsp; <span class="revolution"><strong>Revolution: </strong>{{ album.revolution }}</span>
     </div>
   </div>
 </div>

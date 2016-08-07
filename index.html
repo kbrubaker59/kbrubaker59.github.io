@@ -12,7 +12,7 @@ published: true
   		<a href="/sort-label">Record Label</a> &nbsp;|&nbsp;
   		<a href="/sort-revolution">Revolution</a>
   	</div>
-	{% assign sorted_albums = (site.albums | sort: 'year_released' | reverse ) %}
+	{% assign sorted_albums = (site.albums | sort: 'release_date' | reverse ) %}
     {% for album in sorted_albums %}
     	{% include album-sort-content.html %}
     {% endfor %}
