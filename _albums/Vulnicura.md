@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: album
 title: 'Vulnicura'
 subtitle: 
 artist: 'Bj&ouml;rk'
@@ -14,19 +14,24 @@ album_imgs: # Make sure cover is the first image.
   - 'vulnicura-trans-cvr.jpg'
   - 'vulnicura-trans-slide-cvr.jpg'
   - 'vulnicura-interior.jpg'
-a_tracks:
-  - '01-Stonemilker'
-  - '02-Lionsong'
-b_tracks:
-  - '03-History of Touches'
-  - '04-Black lake'
-  - '05-Family'
-c_tracks:
-  - '06-Notget'
-  - '07-Atom Dance'
-d_tracks:
-  - '08-Mouth Mantra'
-  - '09-Quicksand'
+tracks:
+  a_tracks:
+    - '<strong>Side A:</strong>'
+    - '01-Stonemilker'
+    - '02-Lionsong'
+  b_tracks:
+    - '<strong>Side B:</strong>'
+    - '03-History of Touches'
+    - '04-Black lake'
+    - '05-Family'
+  c_tracks:
+    - '<strong>Side C:</strong>'
+    - '06-Notget'
+    - '07-Atom Dance'
+  d_tracks:
+    - '<strong>Side D:</strong>' 
+    - '08-Mouth Mantra'
+    - '09-Quicksand'
 published: true
 ---
 

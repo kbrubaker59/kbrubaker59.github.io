@@ -1,0 +1,142 @@
+---
+layout: default
+---
+
+<article class="post">
+
+<div class="wrapper" id="wrapper-post-info">
+    <div class="container" id="container-post-info">
+        <!-- LARGE 1 COLUMN -->
+        <div class="large_col">
+            <div class="box1 post-titles">
+                <span class="artist artist-post">{{ page.artist }}</span>
+                <span class="record record-post clr">{{ page.title }}</span>
+            </div>
+            <div class="box1 post-info">
+
+                {% if page.revolution %}
+                <span class="revolution"><strong>Revolution:</strong> {{ page.revolution }}</span> | 
+                {% endif %}
+
+                {% if page.record_label %}
+                <span class="label"><strong>Record Label:</strong> {{ page.record_label }}</span> | 
+                {% endif %}
+
+                {% if page.release_date %}
+                <span class="release-date"><strong>Date Released:</strong> {{ page.release_date | date: "%B %e, %Y" }}</span> | 
+                {% endif %}
+
+                {% if page.purchase_date %}
+                <span class="purchase-date"><strong>Purchase Date:</strong> {{ page.purchase_date }}</span> | 
+                {% endif %}
+
+                {% if page.purchase_amount %}
+                <span class="purchase-amount clr"><strong>Purchase Amount:</strong> {{ page.purchase_amount }}</span>
+                {% endif %}
+
+            </div>
+            <div class="box1 post-tracks">
+                <span class="tracks"><strong>Tracks:</strong></span>
+
+                {% if page.tracks.a_tracks %}
+                <ul class="tracklist clr">
+                    {% for a_track in page.tracks.a_tracks %}
+                    {% if forloop.last or forloop.first %}
+                    <li><i style="white-space: nowrap">{{ a_track }}</i></li>
+                    {% else %}
+                    <li><i style="white-space: nowrap">{{ a_track }}</i></li> | 
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+                {% endif %}
+
+                {% if page.tracks.b_tracks %}
+                <ul class="tracklist clr">
+                    {% for b_track in page.tracks.b_tracks %}
+                    {% if forloop.last or forloop.first %}
+                    <li><i style="white-space: nowrap">{{ b_track }}</i></li>
+                    {% else %}
+                    <li><i style="white-space: nowrap">{{ b_track }}</i></li> | 
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+                {% endif %}
+
+                {% if page.tracks.c_tracks %}
+                <ul class="tracklist clr">
+                    {% for c_track in page.tracks.c_tracks %}
+                    {% if forloop.last or forloop.first %}
+                    <li><i style="white-space: nowrap">{{ c_track }}</i></li>
+                    {% else %}
+                    <li><i style="white-space: nowrap">{{ c_track }}</i></li> | 
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+                {% endif %}
+
+                {% if page.tracks.d_tracks %}
+                <ul class="tracklist clr">
+                    {% for d_track in page.tracks.d_tracks %}
+                    {% if forloop.last or forloop.first %}
+                    <li><i style="white-space: nowrap">{{ d_track }}</i></li>
+                    {% else %}
+                    <li><i style="white-space: nowrap">{{ d_track }}</i></li> | 
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+                {% endif %}
+
+                {% if page.tracks.e_tracks %}
+                <ul class="tracklist clr">
+                    {% for e_track in page.tracks.e_tracks %}
+                    {% if forloop.last or forloop.first %}
+                    <li><i style="white-space: nowrap">{{ e_track }}</i></li>
+                    {% else %}
+                    <li><i style="white-space: nowrap">{{ e_track }}</i></li> | 
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+                {% endif %}
+
+                {% if page.tracks.f_tracks %}
+                <ul class="tracklist clr">
+                    {% for f_track in page.tracks.f_tracks %}
+                    {% if forloop.last or forloop.first %}
+                    <li><i style="white-space: nowrap">{{ f_track }}</i></li>
+                    {% else %}
+                    <li><i style="white-space: nowrap">{{ f_track }}</i></li> | 
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+                {% endif %}
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="container-post-images">
+        <!-- LARGE 1 COLUMN -->
+        <div class="large_col">
+            <div class="box3 post-images">
+                <span class="thoughts"><strong>Artwork Gallery</strong></span>
+<p>{% for img in page.album_imgs %}<a href="/images{{ page.url }}{{img}}" data-lightbox="image-1" data-title=""><img src="/images{{ page.url }}{{img}}" style="display:block;" /></a>{% endfor %}</p></div>
+        </div>
+        <!-- LARGE 1 COLUMN -->
+    </div>
+
+    <div class="container" id="container-post">
+    	<!-- LARGE 1 COLUMN -->
+    	<div class="large_col">
+            <div class="box3 post-thoughts">
+                <span class="thoughts"><strong>Everything you need to know ...</strong></span>
+                {{ content }}
+                <p><em>Written on {{ page.date | date: "%B %e, %Y" }}</em></p>
+            </div>
+        </div>
+    	<!-- LARGE 1 COLUMN -->
+    </div>
+
+</div>
+
+  {% include disqus.html %}
+</article>
