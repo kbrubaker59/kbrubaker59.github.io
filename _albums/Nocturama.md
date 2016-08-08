@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: album
 title: 'Nocturama'
 subtitle: 
 artist: 'Nick Cave and the Bad Seeds'
@@ -9,17 +9,25 @@ year_released: '2003'
 release_date: '2003-02-03'
 purchase_date: 
 purchase_amount: 
+album_imgs: # Make sure cover is the first image. 
+  - 'nocturama-cover.jpg'
 tracks:
-  - '01-Wonderful Life'
-  - '02-He Wants You'
-  - '03-Right Out of Your Hand'
-  - '04-Bring It On'
-  - '05-Dead Man in My Bed'
-  - '06-Still in Love'
-  - '07-There Is a Town'
-  - '08-Rock of Gibraltar'
-  - '09-She Passed By My Window'
-  - '10-Babe, I&rsquo; On Fire'
+  a_tracks:
+    - '<strong>side A:</strong>'
+    - '01-Wonderful Life'
+    - '02-He Wants You'
+    - '03-Right Out of Your Hand'
+    - '04-Bring It On'
+  b_tracks:
+    - '<strong>side B:</strong>'
+    - '05-Dead Man in My Bed'
+    - '06-Still in Love'
+    - '07-There Is a Town'
+    - '08-Rock of Gibraltar'
+    - '09-She Passed By My Window'
+  c_tracks:
+    - '<strong>side C:</strong>'
+    - '10-Babe, I&rsquo;m On Fire'
 published: true
 ---
 

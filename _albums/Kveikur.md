@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: album
 title: 'Kveikur'
 subtitle: 
 artist: 'Sigur R&oacute;s'
@@ -9,16 +9,26 @@ year_released: '2013'
 release_date: '2013-06-12'
 purchase_date: 
 purchase_amount: 
+album_imgs: # Make sure cover is the first image. 
+  - 'kveikur-cover.jpg'
 tracks:
-  - '01-Brennisteinn'
-  - '02-Hrafntinna'
-  - '03-Isjaki'
-  - '04-Yfirbord'
-  - '05-Stormur'
-  - '06-Kveikur'
-  - '07-Rafstraumur'
-  - '08-Bl&aacute;pr&aacute;dur'
-  - '09-Var'
+  a_tracks:
+    - '<strong>A:</strong>'
+    - '01-Brennisteinn'
+    - '02-Hrafntinna'
+  b_tracks:
+    - '<strong>B:</strong>'
+    - '03-Isjaki'
+    - '04-Yfirbord'
+  c_tracks:
+    - '<strong>C:</strong>'
+    - '05-Stormur'
+    - '06-Kveikur'
+  d_tracks:
+    - '<strong>D:</strong>' 
+    - '07-Rafstraumur'
+    - '08-Bl&aacute;pr&aacute;dur'
+    - '09-Var'
 published: true
 ---
 

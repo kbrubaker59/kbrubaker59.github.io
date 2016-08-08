@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: album
 title: 'From Her to Eternity'
 subtitle: 
 artist: 'Nick Cave'
@@ -9,14 +9,20 @@ year_released: '1984'
 release_date: '1984-06-04'
 purchase_date: 
 purchase_amount: 
+album_imgs: # Make sure cover is the first image. 
+  - 'from-her-to-eternity-cover.jpg'
 tracks:
-  - '01-Avalanche'
-  - '02-Cabin Fever!'
-  - '03-Well of Misery'
-  - '04-From Her to Eternity'
-  - '05-Saint Huck'
-  - '06-Wings Off Flies'
-  - '07-A Box for Black Paul'
+  a_tracks:
+    - '<strong>Side A:</strong>'
+    - '01-Avalanche'
+    - '02-Cabin Fever!'
+    - '03-Well of Misery'
+    - '04-From Her to Eternity'
+  b_tracks:
+    - '<strong>Side B:</strong>'
+    - '05-Saint Huck'
+    - '06-Wings Off Flies'
+    - '07-A Box for Black Paul'
 published: true
 ---
 

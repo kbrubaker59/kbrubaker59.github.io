@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: album
 title: 'on fire'
 subtitle: 
 artist: 'Galaxie 500'
@@ -9,17 +9,23 @@ year_released: '1989'
 release_date: '1989-01-01'
 purchase_date: 
 purchase_amount: 
+album_imgs: # Make sure cover is the first image. 
+  - 'on-fire-cover.jpg'
 tracks:
-  - '01-Blue Thunder'
-  - '02-Tell Me'
-  - '03-Snowstorm'
-  - '04-Strange'
-  - '05-When will you come Home'
-  - '06-Decomposing Trees'
-  - '07-Another Day'
-  - '08-Leave the Planet'
-  - '09-Plastic Bird'
-  - '10-Isn&rsquo;t it a Pity'
+  a_tracks:
+    - '<strong>Side A:</strong>'
+    - '01-Blue Thunder'
+    - '02-Tell Me'
+    - '03-Snowstorm'
+    - '04-Strange'
+    - '05-When will you come Home'
+  b_tracks:
+    - '<strong>Side B:</strong>'
+    - '06-Decomposing Trees'
+    - '07-Another Day'
+    - '08-Leave the Planet'
+    - '09-Plastic Bird'
+    - '10-Isn&rsquo;t it a Pity'
 published: true
 ---
 *actual release date unknown.

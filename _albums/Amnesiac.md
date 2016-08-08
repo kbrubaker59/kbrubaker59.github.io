@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: album
 title: 'Amnesiac'
 subtitle: 
 artist: 'Radiohead'
@@ -9,18 +9,28 @@ year_released: '2001'
 release_date: '2001-06-04'
 purchase_date: 
 purchase_amount: 
+album_imgs: # Make sure cover is the first image. 
+  - 'amnesiac-cover.jpg'
 tracks:
-  - '01-Packt Like Sardines in a Crusd Tin Box'
-  - '02-Pyramid Song'
-  - '03-Pull/Pulk Revolving Doors'
-  - '04-You and Whose Army'
-  - '05-I Might Be Wrong'
-  - '06-Knives Out'
-  - '07-Morning Bell/Amnesiac'
-  - '08-Dollars & Cents'
-  - '09-Hunting Bears'
-  - '10-Like Spinning Plates'
-  - '11-Life in a Glasshouse'
+  a_tracks:
+    - '<strong>Side One:</strong>'
+    - '01-Packt Like Sardines in a Crusd Tin Box'
+    - '02-Pyramid Song'
+    - '03-Pull/Pulk Revolving Doors'
+  b_tracks:
+    - '<strong>Side Two:</strong>'
+    - '04-You and Whose Army'
+    - '05-I Might Be Wrong'
+  c_tracks:
+    - '<strong>Side Three:</strong>'
+    - '06-Knives Out'
+    - '07-Morning Bell/Amnesiac'
+    - '08-Dollars & Cents'
+  d_tracks:
+    - '<strong>Side Four:</strong>' 
+    - '09-Hunting Bears'
+    - '10-Like Spinning Plates'
+    - '11-Life in a Glasshouse'
 published: true
 ---
 

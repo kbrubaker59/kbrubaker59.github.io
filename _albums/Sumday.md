@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: album
 title: 'Sumday'
 subtitle: 
 artist: 'Grandaddy'
@@ -9,19 +9,29 @@ year_released: '2003'
 release_date: '2003-05-13'
 purchase_date: 
 purchase_amount: 
+album_imgs: # Make sure cover is the first image. 
+  - 'sumday-cover.jpg'
 tracks:
-  - '01-Now It&rsquo;s On'
-  - '02-I&rsquo;m on Standby'
-  - '03-The Go in the Go-for-it'
-  - '04-The Group Who Couldn&rsquo;t Say'
-  - '05-Lost on Yer Merry Way'
-  - '06-El Caminos in the West'
-  - '07-&ldquo;Yeah&rdquo; Is What We Had'
-  - '08-Saddest Vacant Lot in All the World'
-  - '09-Stray Dog and the Chocolate Shake'
-  - '10-O.K with My Decay'
-  - '11-The Warming Sun'
-  - '12-The Final Push to the Sum'
+  a_tracks:
+    - '<strong>side a:</strong>'
+    - '01-Now It&rsquo;s On'
+    - '02-I&rsquo;m on Standby'
+    - '03-The Go in the Go-for-it'
+  b_tracks:
+    - '<strong>side b:</strong>'
+    - '04-The Group Who Couldn&rsquo;t Say'
+    - '05-Lost on Yer Merry Way'
+    - '06-El Caminos in the West'
+  c_tracks:
+    - '<strong>side c:</strong>'
+    - '07-&ldquo;Yeah&rdquo; Is What We Had'
+    - '08-Saddest Vacant Lot in All the World'
+    - '09-Stray Dog and the Chocolate Shake'
+  d_tracks:
+    - '<strong>side d:</strong>' 
+    - '10-O.K with My Decay'
+    - '11-The Warming Sun'
+    - '12-The Final Push to the Sum'
 published: true
 ---
 

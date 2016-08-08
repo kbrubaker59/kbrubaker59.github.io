@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: album
 title: '[self-titled]'
 subtitle: 
 artist: 'Sylvan Esso'
@@ -9,17 +9,23 @@ year_released: '2014'
 release_date: '2014-05-04'
 purchase_date: 
 purchase_amount: 
+album_imgs: # Make sure cover is the first image. 
+  - 'self-titled-cover.jpg'
 tracks:
-  - '01-Hey Mami'
-  - '02-Dreamy Bruises'
-  - '03-Could I Be'
-  - '04-Wolf'
-  - '05-Dress'
-  - '06-H.S.K.T.'
-  - '07-Coffee'
-  - '08-Uncatena'
-  - '09-Play It Right'
-  - '10-Come Down'
+  a_tracks:
+    - '<strong>Side A:</strong>'
+    - '01-Hey Mami'
+    - '02-Dreamy Bruises'
+    - '03-Could I Be'
+    - '04-Wolf'
+    - '05-Dress'
+  b_tracks:
+    - '<strong>Side B:</strong>'
+    - '06-H.S.K.T.'
+    - '07-Coffee'
+    - '08-Uncatena'
+    - '09-Play It Right'
+    - '10-Come Down'
 published: true
 ---
 

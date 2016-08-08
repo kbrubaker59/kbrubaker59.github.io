@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: album
 title: 'Bitte-Orca'
 subtitle: 
 artist: 'Dirty Projectors'
@@ -9,16 +9,22 @@ year_released: '2009'
 release_date: '2009-06-09'
 purchase_date: 
 purchase_amount: 
+album_imgs: # Make sure cover is the first image. 
+  - 'bitte-orca-cover.jpg'
 tracks:
-  - '01-Cannibal Resource'
-  - '02-Temecula Sunrise'
-  - '03-The Bride'
-  - '04-Stillness Is the Move'
-  - '05-Two Doves'
-  - '06-Useful Chamber'
-  - '07-No Intention'
-  - '08-Remade Horizon'
-  - '09-Fluorescent Half Dome'
+  a_tracks:
+    - '<strong>FACE A:</strong>'
+    - '01-Cannibal Resource'
+    - '02-Temecula Sunrise'
+    - '03-The Bride'
+    - '04-Stillness Is the Move'
+    - '05-Two Doves'
+  b_tracks:
+    - '<strong>FACE B:</strong>'
+    - '06-Useful Chamber'
+    - '07-No Intention'
+    - '08-Remade Horizon'
+    - '09-Fluorescent Half Dome'
 published: true
 ---
 

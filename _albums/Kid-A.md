@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: album
 title: 'Kid A'
 subtitle: 
 artist: 'Radiohead'
@@ -9,17 +9,27 @@ year_released: '2000'
 release_date: '2000-10-02'
 purchase_date: 
 purchase_amount: 
+album_imgs: # Make sure cover is the first image. 
+  - 'kid-a-cover.jpg'
 tracks:
-  - '01-Everything in its Right Place'
-  - '02-Kid A'
-  - '03-The National Anthem'
-  - '04-How to Disappear Completely'
-  - '05-Treefingers'
-  - '06-Optimistic'
-  - '07-In Limbo'
-  - '08-Idioteque'
-  - '09-Morning Bell'
-  - '10-Motion Picture Soundtrack'
+  a_tracks:
+    - '<strong>ALPHA:</strong>'
+    - '01-Everything in its Right Place'
+    - '02-Kid A'
+  b_tracks:
+    - '<strong>BETA:</strong>'
+    - '03-The National Anthem'
+    - '04-How to Disappear Completely'
+    - '05-Treefingers'
+  c_tracks:
+    - '<strong>DELTA:</strong>'
+    - '06-Optimistic'
+    - '07-In Limbo'
+  d_tracks:
+    - '<strong>GAMMA:</strong>' 
+    - '08-Idioteque'
+    - '09-Morning Bell'
+    - '10-Motion Picture Soundtrack'
 published: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: album
 title: '180'
 subtitle: 
 artist: 'Palma Violets'
@@ -9,18 +9,24 @@ year_released: '2013'
 release_date: '2013-02-25'
 purchase_date: ''
 purchase_amount: ''
+album_imgs: # Make sure cover is the first image. 
+  - 'one-eighty-cover.jpg'
 tracks:
-  - '01-Best of Friends'
-  - '02-Step Up for the Cool Cats'
-  - '03-All the Garden Birds'
-  - '04-Rattlesnake Highway'
-  - '05-Chicken Dippers'
-  - '06-Last of the Summer Wine'
-  - '07-Tom the Drum'
-  - '08-Johnny Bagga&rsquo; Donuts'
-  - '09-We Found Love'
-  - '10-Three Stars'
-  - '11-14'
+  a_tracks:
+    - '<strong>Side A:</strong>'
+    - '01-Best of Friends'
+    - '02-Step Up for the Cool Cats'
+    - '03-All the Garden Birds'
+    - '04-Rattlesnake Highway'
+    - '05-Chicken Dippers'
+    - '06-Last of the Summer Wine'
+  b_tracks:
+    - '<strong>Side B:</strong>'
+    - '07-Tom the Drum'
+    - '08-Johnny Bagga&rsquo; Donuts'
+    - '09-We Found Love'
+    - '10-Three Stars'
+    - '11-14'
 published: true
 ---
 

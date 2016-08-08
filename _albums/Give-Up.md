@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: album
 title: 'Give Up'
 subtitle: 
 artist: 'The Postal Service'
@@ -9,17 +9,23 @@ year_released: '2003'
 release_date: '2003-02-19'
 purchase_date: 
 purchase_amount: 
+album_imgs: # Make sure cover is the first image. 
+  - 'give-up-cover.jpg'
 tracks:
-  - '01-the district sleeps alone tonight'
-  - '02-such great heights'
-  - '03-sleeping in'
-  - '04-nothing better'
-  - '05-recycled air'
-  - '06-clark gable'
-  - '07-we will become silhouettes'
-  - '08-this place is a prison'
-  - '09-brand new colony'
-  - '10-natural anthem'
+  a_tracks:
+    - '<strong>Side 1:</strong>'
+    - '01-the district sleeps alone tonight'
+    - '02-such great heights'
+    - '03-sleeping in'
+    - '04-nothing better'
+    - '05-recycled air'
+  b_tracks:
+    - '<strong>Side 2:</strong>'
+    - '06-clark gable'
+    - '07-we will become silhouettes'
+    - '08-this place is a prison'
+    - '09-brand new colony'
+    - '10-natural anthem'
 published: true
 ---
 

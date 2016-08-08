@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: album
 title: '[self-titled]'
 subtitle: 
 artist: 'Stone Roses'
@@ -9,18 +9,24 @@ year_released: '1989'
 release_date: '1989-01-01'
 purchase_date: 
 purchase_amount: 
+album_imgs: # Make sure cover is the first image. 
+  - 'self-titled-cover.jpg'
 tracks:
-  - '01-I Wanna Be Adored'
-  - '02-She Bangs the Drums'
-  - '03-Waterfall'
-  - '04-Don&rsquo;t Stop'
-  - '05-Bye Bye Badman'
-  - '06-Elizabeth My Dear'
-  - '07-(Song for My) Sugar Spun Sister'
-  - '08-Made of Stone'
-  - '09-Shoot You Down'
-  - '10-This Is the One'
-  - '11-I Am the Resurrection'
+  a_tracks:
+    - '<strong>Side One:</strong>'
+    - '01-I Wanna Be Adored'
+    - '02-She Bangs the Drums'
+    - '03-Waterfall'
+    - '04-Don&rsquo;t Stop'
+    - '05-Bye Bye Badman'
+  b_tracks:
+    - '<strong>Side Two:</strong>'
+    - '06-Elizabeth My Dear'
+    - '07-(Song for My) Sugar Spun Sister'
+    - '08-Made of Stone'
+    - '09-Shoot You Down'
+    - '10-This Is the One'
+    - '11-I Am the Resurrection'
 published: true
 ---
 *actual release date unknown.

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: album
 title: 'Murder Ballads'
 subtitle: 
 artist: 'Nick Cave and the Bad Seeds'
@@ -8,17 +8,25 @@ record_label: 'Mute Records LTD'
 year_released: '2011'
 release_date: '1995-11-07'
 purchase_amount: 
+album_imgs: # Make sure cover is the first image. 
+  - 'murder-ballads-cover.jpg'
 tracks:
-  - '01-Song of Joy'
-  - '02-Henry Lee'
-  - '03-Lovely Creature'
-  - '04-Stagger Lee'
-  - '05-Where the Wild Roses Grow'
-  - '06-The Curse of Millhaven'
-  - '07-The Kindness of Strangers'
-  - '08-Crow Jane'
-  - '09-O&rsquo;Malley&rsquo;s Bar'
-  - '10-Death Is Not the End'
+  a_tracks:
+    - '<strong>A:</strong>'
+    - '01-Song of Joy'
+    - '02-Henry Lee'
+    - '03-Lovely Creature'
+    - '04-Stagger Lee'
+  b_tracks:
+    - '<strong>B:</strong>'
+    - '05-Where the Wild Roses Grow'
+    - '06-The Curse of Millhaven'
+    - '07-The Kindness of Strangers'
+    - '08-Crow Jane'
+  c_tracks:
+    - '<strong>C:</strong>'
+    - '09-O&rsquo;Malley&rsquo;s Bar'
+    - '10-Death Is Not the End'
 published: true
 ---
 

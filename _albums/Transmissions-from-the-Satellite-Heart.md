@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: album
 title: 'Transmissions from the Satellite Heart'
 subtitle: 'Featuring the Absolute Sounds of '
 artist: 'The Flaming Lips'
@@ -9,18 +9,24 @@ year_released: '1993'
 release_date: '1993-06-22'
 purchase_date: 
 purchase_amount: 
+album_imgs: # Make sure cover is the first image. 
+  - 'transmissions-cover.jpg'
 tracks:
-  - '01-Turn It On'
-  - '02-Pilot Can at the Queer of God'
-  - '03-Oh My Pregnant Head Labia in the Sunlight ...'
-  - '04-She Don&rsquo;t Use Jelly'
-  - '05-Chewin the Apple of Your Eye'
-  - '06-Superhumans'
-  - '07-Be My Head'
-  - '08-Moth in the Incubator'
-  - '09-Plastic Jesus'
-  - '10-When Yer Twenty Two'
-  - '11-Slow Nerve Action'
+  a_tracks:
+    - '<strong>Side 1:</strong>'
+    - '01-Turn It On'
+    - '02-Pilot Can at the Queer of God'
+    - '03-Oh My Pregnant Head Labia in the Sunlight ...'
+    - '04-She Don&rsquo;t Use Jelly'
+    - '05-Chewin the Apple of Your Eye'
+  b_tracks:
+    - '<strong>Side 2:</strong>'
+    - '06-Superhumans'
+    - '07-Be My Head'
+    - '08-Moth in the Incubator'
+    - '09-Plastic Jesus'
+    - '10-When Yer Twenty Two'
+    - '11-Slow Nerve Action'
 published: true
 ---
 

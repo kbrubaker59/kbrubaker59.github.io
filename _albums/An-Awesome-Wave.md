@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: album
 title: 'An Awesome Wave'
 subtitle: 
 artist: 'alt-J'
@@ -9,17 +9,23 @@ year_released: '2012'
 release_date: '2012-05-12'
 purchase_date: 
 purchase_amount: 
+album_imgs: # Make sure cover is the first image. 
+  - 'an-awesome-wave-cover.jpg'
 tracks:
-  - '01-Intro'
-  - '02-Tessellate'
-  - '03-Breezeblocks'
-  - '04-Something Good'
-  - '05-Dissolve Me'
-  - '06-Matilda'
-  - '07-MS'
-  - '08-Fitzpleasure'
-  - '09-Bloodflood'
-  - '10-Taro'
+  a_tracks:
+    - '<strong>Side A:</strong>'
+    - '01-Intro'
+    - '02-Tessellate'
+    - '03-Breezeblocks'
+    - '04-Something Good'
+    - '05-Dissolve Me'
+  b_tracks:
+    - '<strong>Side B:</strong>'
+    - '06-Matilda'
+    - '07-MS'
+    - '08-Fitzpleasure'
+    - '09-Bloodflood'
+    - '10-Taro'
 published: true
 ---
 

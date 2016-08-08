@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: album
 title: '[the pink album]'
 subtitle: 
 artist: 'Sunny Day Real Estate'
@@ -9,16 +9,22 @@ year_released: '1995'
 release_date: '1995-11-07'
 purchase_date: 
 purchase_amount: 
+album_imgs: # Make sure cover is the first image. 
+  - 'the-pink-album-cover.jpg'
 tracks:
-  - '01-Friday'
-  - '02-Theo B'
-  - '03-Red Elephant'
-  - '04-5/4'
-  - '05-Waffle'
-  - '06-8'
-  - '07-Iscarabaid'
-  - '08-J&rsquo;nuh'
-  - '09-Rodeo Jones'
+  a_tracks:
+    - '<strong>Side 1:</strong>'
+    - '01-Friday'
+    - '02-Theo B'
+    - '03-Red Elephant'
+    - '04-5/4'
+    - '05-Waffle'
+  b_tracks:
+    - '<strong>Side 2:</strong>'
+    - '06-8'
+    - '07-Iscarabaid'
+    - '08-J&rsquo;nuh'
+    - '09-Rodeo Jones'
 published: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: album
 title: 'Yoshimi Battles the Pink Robots'
 subtitle: 
 artist: 'The Flaming Lips'
@@ -9,18 +9,24 @@ year_released: '2002'
 release_date: '2002-07-15'
 purchase_date: 
 purchase_amount: 
-tracks: 
-  - '01-Fight Test'
-  - '02-One More Robot/Sympathy 3000-21'
-  - '03-Yoshimi Battles the Pink Robots pt. 1'
-  - '04-Yoshimi Battles the Pink Robots pt. 2'
-  - '05-In the Morning of the Magicians'
-  - '06-Ego Tripping at the Gates of Hell'
-  - '07-Are You a Hypnotist?'
-  - '08-It&rsquo;s Summertime'
-  - '09-Do You Realize??'
-  - '10-All We Have Is Now'
-  - '11-Approaching Pavonis Mons by Balloon (Utopia Planitia)'
+album_imgs: # Make sure cover is the first image. 
+  - 'yoshimi-cover.jpg'
+tracks:
+  a_tracks:
+    - '<strong>Side 1:</strong>'
+    - '01-Fight Test'
+    - '02-One More Robot/Sympathy 3000-21'
+    - '03-Yoshimi Battles the Pink Robots pt. 1'
+    - '04-Yoshimi Battles the Pink Robots pt. 2'
+    - '05-In the Morning of the Magicians'
+  b_tracks:
+    - '<strong>Side 2:</strong>'
+    - '06-Ego Tripping at the Gates of Hell'
+    - '07-Are You a Hypnotist?'
+    - '08-It&rsquo;s Summertime'
+    - '09-Do You Realize??'
+    - '10-All We Have Is Now'
+    - '11-Approaching Pavonis Mons by Balloon (Utopia Planitia)'
 published: true
 ---
 

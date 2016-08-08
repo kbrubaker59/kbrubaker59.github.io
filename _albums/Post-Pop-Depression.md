@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: album
 title: 'Post Pop Depression'
 subtitle: 
 artist: 'Iggy Pop'
@@ -9,20 +9,22 @@ year_released: '2016'
 release_date: '2016-03-18'
 purchase_date: 
 purchase_amount: 
-album_imgs: 
-# Make sure cover is the first image. 
-  - 'Post_Pop_Depression_cover.jpg'
-  - ''
+album_imgs: # Make sure cover is the first image. 
+  - 'post-pop-depression-cover.jpg'
 tracks:
-  - '01-Break into Your Heart'
-  - '02-Gardenia'
-  - '03-American Valhalla'
-  - '04-In the Lobby'
-  - '05-Sunday'
-  - '06-Vulture'
-  - '07-German Days'
-  - '08-Chocolate Drops'
-  - '09-Paraguay'
+  a_tracks:
+    - '<strong>Side One:</strong>'
+    - '01-Break into Your Heart'
+    - '02-Gardenia'
+    - '03-American Valhalla'
+    - '04-In the Lobby'
+    - '05-Sunday'
+  b_tracks:
+    - '<strong>Side Two:</strong>'
+    - '06-Vulture'
+    - '07-German Days'
+    - '08-Chocolate Drops'
+    - '09-Paraguay'
 published: true
 ---
 

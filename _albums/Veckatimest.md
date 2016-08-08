@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: album
 title: 'Veckatimest'
 subtitle: 
 artist: 'Grizzly Bear'
@@ -9,19 +9,29 @@ year_released: '2009'
 release_date: '2009-05-26'
 purchase_date: 
 purchase_amount: 
+album_imgs: # Make sure cover is the first image. 
+  - 'veckatimist-cover.jpg'
 tracks:
-  - '01-Southern Point'
-  - '02-Two Weeks'
-  - '03-All We Ask'
-  - '04-Fine for Now'
-  - '05-Cheerleader'
-  - '06-Dory'
-  - '07-Ready, Able'
-  - '08-About Face'
-  - '09-Hold Still'
-  - '10-While You Wait for the Others'
-  - '11-I Live with You'
-  - '12-Foreground'
+  a_tracks:
+    - '<strong>A:</strong>'
+    - 'A1-Southern Point'
+    - 'A2-Two Weeks'
+    - 'A3-All We Ask'
+  b_tracks:
+    - '<strong>B:</strong>'
+    - 'B1-Fine for Now'
+    - 'B2-Cheerleader'
+    - 'B3-Dory'
+  c_tracks:
+    - '<strong>Side C:</strong>'
+    - 'C1-Ready, Able'
+    - 'C2-About Face'
+    - 'C3-Hold Still'
+  d_tracks:
+    - '<strong>Side D:</strong>' 
+    - 'D1-While You Wait for the Others'
+    - 'D2-I Live with You'
+    - 'D3-Foreground'
 published: true
 ---
 

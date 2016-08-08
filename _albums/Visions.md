@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: album
 title: 'Visions'
 subtitle: 
 artist: 'Grimes'
@@ -9,20 +9,26 @@ year_released: '2012'
 release_date: '2012-01-31'
 purchase_date: 
 purchase_amount: 
-tracks: 
-  - '01-Infinite Heart Without Fulfillment'
-  - '02-Genesis'
-  - '03-Oblivion'
-  - '04-Eight'
-  - '05-Circumambient'
-  - '06-Vowels = Space and Time'
-  - '07-Visiting Statue'
-  - '08-Be A Body'
-  - '09-Colour of Moonlight (Antiochus) (Ft. Dol drums)'
-  - '10-Symphone IX (my wait is u)'
-  - '11-Nightmusic (Ft. Majical Cloudz)'
-  - '12-Skin'
-  - '13-know the way (outro)'
+album_imgs: # Make sure cover is the first image. 
+  - 'visions-cover.jpg'
+tracks:
+  a_tracks:
+    - '<strong>face a:</strong>'
+    - '01-Infinite Heart Without Fulfillment'
+    - '02-Genesis'
+    - '03-Oblivion'
+    - '04-Eight'
+    - '05-Circumambient'
+    - '06-Vowels = Space and Time'
+    - '07-Visiting Statue'
+  b_tracks:
+    - '<strong>face b:</strong>'
+    - '08-Be A Body'
+    - '09-Colour of Moonlight (Antiochus) (Ft. Dol drums)'
+    - '10-Symphone IX (my wait is u)'
+    - '11-Nightmusic (Ft. Majical Cloudz)'
+    - '12-Skin'
+    - '13-know the way (outro)'
 published: true
 ---
 

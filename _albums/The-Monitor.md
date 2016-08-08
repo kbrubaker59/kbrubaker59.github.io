@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: album
 title: 'The Monitor'
 subtitle: 
 artist: 'Titus Andronicus'
@@ -9,17 +9,27 @@ year_released: '2010'
 release_date: '2010-03-10'
 purchase_date: 
 purchase_amount: 
+album_imgs: # Make sure cover is the first image. 
+  - 'the-monitor-cover.jpg'
 tracks:
-  - '01-A More Perfect Union'
-  - '02-Titus Andronicus Forever'
-  - '03-No Future part Three: Escape from No Future'
-  - '04-Richard II'
-  - '05-A Pot in Which to Piss'
-  - '06-Four Score and Seven'
-  - '07-Theme from &ldquo;Cheers&rdquo;'
-  - '08-To Old Friends and New'
-  - '09-...And Ever'
-  - '10-The Battle of Hampton Roads'
+  a_tracks:
+    - '<strong>Side A:</strong>'
+    - '01-A More Perfect Union'
+    - '02-Titus Andronicus Forever'
+    - '03-No Future part Three: Escape from No Future'
+    - '04-Richard II'
+  b_tracks:
+    - '<strong>Side B:</strong>'
+    - '05-A Pot in Which to Piss'
+    - '06-Four Score and Seven'
+  c_tracks:
+    - '<strong>Side C:</strong>'
+    - '07-Theme from &ldquo;Cheers&rdquo;'
+    - '08-To Old Friends and New'
+    - '09-...And Ever'
+  d_tracks:
+    - '<strong>Side D:</strong>' 
+    - '10-The Battle of Hampton Roads'
 published: true
 ---
 
