@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: album
 title: 'Silence Yourself'
 subtitle: 
 artist: 'Savages'
@@ -9,18 +9,24 @@ year_released: '2013'
 release_date: '2013-05-06'
 purchase_date: 
 purchase_amount: 
+album_imgs: # Make sure cover is the first image. 
+  - 'silence-yourself-cover.jpg'
 tracks:
-  - '01-Shut Up'
-  - '02-I Am Here'
-  - '03-City&rsquo;s Full'
-  - '04-Strife'
-  - '05-Waiting for a Sign'
-  - '06-Dead Nature'
-  - '07-She Will'
-  - '08-No Face'
-  - '09-Hit Me'
-  - '10-Husbands'
-  - '11-Marshall Dear'
+  a_tracks:
+    - '<strong>Side A:</strong>'
+    - 'A1-Shut Up'
+    - 'A2-I Am Here'
+    - 'A3-City&rsquo;s Full'
+    - 'A4-Strife'
+    - 'A5-Waiting for a Sign'
+  b_tracks:
+    - '<strong>Side B:</strong>'
+    - 'B1-Dead Nature'
+    - 'B2-She Will'
+    - 'B3-No Face'
+    - 'B4-Hit Me'
+    - 'B5-Husbands'
+    - 'B6-Marshall Dear'
 published: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: album
 title: 'Nowhere'
 subtitle: 
 artist: 'Ride'
@@ -9,15 +9,21 @@ year_released: '1990'
 release_date: '1990-09-15'
 purchase_date: 
 purchase_amount: 
+album_imgs: # Make sure cover is the first image. 
+  - 'nowhere-cover.jpg'
 tracks:
-  - '01-Seagull'
-  - '02-Kaleidoscope'
-  - '03-In a Different Place'
-  - '04-Polar Bear'
-  - '05-Dreams Burn Down'
-  - '06-Decay'
-  - '07-Paralysed'
-  - '08-Vapor Trail'
+  a_tracks:
+    - '<strong>Side A:</strong>'
+    - '01-Seagull'
+    - '02-Kaleidoscope'
+    - '03-In a Different Place'
+    - '04-Polar Bear'
+  b_tracks:
+    - '<strong>Side B:</strong>'
+    - '05-Dreams Burn Down'
+    - '06-Decay'
+    - '07-Paralysed'
+    - '08-Vapor Trail'
 published: true
 ---
 

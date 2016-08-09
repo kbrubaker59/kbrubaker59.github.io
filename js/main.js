@@ -7,3 +7,13 @@ $( document ).ready(function() {
 		$( "nav" ).toggleClass("show-nav");
 		});
   });
+
+lightbox.option({
+      'resizeDuration': 500
+    });
+lightbox.option({
+      'showImageNumberLabel': false
+    });
+lightbox.option({
+      'wrapAround': true
+    });

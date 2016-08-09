@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: album
 title: 'Souvlaki'
 subtitle: 
 artist: 'Slowdive'
@@ -9,17 +9,23 @@ year_released: '1994'
 release_date: '1994-02-08'
 purchase_date: 
 purchase_amount: 
-tracks: 
-  - '01-Alison'
-  - '02-Machine Gun'
-  - '03-40 Days'
-  - '04-Sing'
-  - '05-Here She Comes'
-  - '06-Souvlaki Space Station'
-  - '07-When the Sun Hits'
-  - '08-Altogether'
-  - '09-Melon Yellow'
-  - '10-Dagger'
+album_imgs: # Make sure cover is the first image. 
+  - 'souvlaki-cover.jpg'
+tracks:
+  a_tracks:
+    - '<strong>Side One:</strong>'
+    - '01-Alison'
+    - '02-Machine Gun'
+    - '03-40 Days'
+    - '04-Sing'
+    - '05-Here She Comes'
+  b_tracks:
+    - '<strong>Side Two:</strong>'
+    - '06-Souvlaki Space Station'
+    - '07-When the Sun Hits'
+    - '08-Altogether'
+    - '09-Melon Yellow'
+    - '10-Dagger'
 published: true
 ---
 

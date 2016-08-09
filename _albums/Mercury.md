@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: album
 title: 'Mercury'
 subtitle: 
 artist: 'American Music Club'
@@ -9,21 +9,27 @@ year_released: '1993'
 release_date: '1993-03-01'
 purchase_date: 
 purchase_amount: 
+album_imgs: # Make sure cover is the first image. 
+  - 'mercury-cover.jpg'
 tracks:
-  - '01-Gratitude Walks'
-  - '02-If I Had a Hammer'
-  - '03-Challenger'
-  - '04-I&rsquo;ve Been a Mess'
-  - '05-Hollywood 4-5-02'
-  - 06-'What Godzilla Said to God When His Name Wasn&rsquo;t Found in the Book of Life'
-  - 07-'Keep Me Around'
-  - 08-'Dallas, Airports, Bodybags'
-  - 09-'Apology for an Accident'
-  - 10-'Over and Done'
-  - 11-'Johnny Mathis&rsquo; Feet'
-  - 12-'The Hopes and Dreams of Heaven&rsquo;s 10,000 Whores'
-  - 13-'More Hopes and Dreams'
-  - 14-'Will You Find Me?'
+  a_tracks:
+    - '<strong>Side 1:</strong>'
+    - '01-Gratitude Walks'
+    - '02-If I Had a Hammer'
+    - '03-Challenger'
+    - '04-I&rsquo;ve Been a Mess'
+    - '05-Hollywood 4-5-02'
+    - 06-'What Godzilla Said to God When His Name Wasn&rsquo;t Found in the Book of Life'
+    - 07-'Keep Me Around'
+  b_tracks:
+    - '<strong>Side 2:</strong>'
+    - 08-'Dallas, Airports, Bodybags'
+    - 09-'Apology for an Accident'
+    - 10-'Over and Done'
+    - 11-'Johnny Mathis&rsquo; Feet'
+    - 12-'The Hopes and Dreams of Heaven&rsquo;s 10,000 Whores'
+    - 13-'More Hopes and Dreams'
+    - 14-'Will You Find Me?'
 published: true
 ---
 *actual release date unknown.
