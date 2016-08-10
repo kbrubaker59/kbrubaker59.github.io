@@ -3,15 +3,17 @@ layout: default
 published: true
 ---
 
-<div class="posts">
-  	<div class="sort-menu">
-  		<span>Sort by:&nbsp; 
-  		<a href="/sort-artist">Artist</a> &nbsp;|&nbsp;
-  		<a href="/sort-title">Album Title</a> &nbsp;|&nbsp;
-  		<a href="/" class="on-page">Release Date</a> &nbsp;|&nbsp;
-  		<a href="/sort-label">Record Label</a> &nbsp;|&nbsp;
-  		<a href="/sort-revolution">Revolution</a>
-  	</div>
+<div class="container" id="container-post-info">
+    <!-- LARGE 1 COLUMN -->
+    <div class="posts">
+      	<div class="sort-menu">
+      		<span>Sort by:&nbsp; </span>
+      		<a href="/sort-artist">Artist</a> &nbsp;|&nbsp;
+      		<a href="/sort-title">Album Title</a> &nbsp;|&nbsp;
+      		<a href="/" class="on-page">Release Date</a> &nbsp;|&nbsp;
+      		<a href="/sort-label">Record Label</a> &nbsp;|&nbsp;
+      		<a href="/sort-revolution">Revolution</a>
+      	</div>
 	{% assign sorted_albums = (site.albums | sort: 'release_date' | reverse ) %}
     {% for album in sorted_albums %}
     	{% include album-sort-content.html %}
@@ -23,4 +25,5 @@ published: true
   <h3>{{ post.title }}</h3>
   {% endfor %} -->
 
+</div>
 </div>

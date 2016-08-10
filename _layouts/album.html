@@ -5,14 +5,23 @@ layout: default
 <article class="post">
 
 <div class="wrapper" id="wrapper-post-info">
+
+<div class="box1 post-titles">
+    <span class="artist artist-post">{{ page.artist }}</span>
+    <span class="record record-post">{{ page.title }}</span>
+</div>
+
+
     <div class="container" id="container-post-info">
         <!-- LARGE 1 COLUMN -->
         <div class="large_col">
-            <div class="box1 post-titles">
+<!--
+                <div class="box1 post-titles">
                 <span class="artist artist-post">{{ page.artist }}</span>
-                <span class="record record-post clr">{{ page.title }}</span>
+                <span class="record record-post">{{ page.title }}</span>
             </div>
-            <div class="box1 post-info">
+-->
+            <div class="box1 post-info clr">
 
                 {% if page.revolution %}
                 <span class="revolution"><strong>Revolution:</strong> {{ page.revolution }}</span> | 
@@ -114,14 +123,12 @@ layout: default
         </div>
     </div>
 
-    <div class="container" id="container-post-images">
-        <!-- LARGE 1 COLUMN -->
+    <div class="container" id="container-post-gallery">
         <div class="large_col">
-            <div class="box3 post-images">
-                <span class="thoughts"><strong>Artwork Gallery</strong></span>
+            <div class="box3 post-gallery">
+                <span class="gallery"><strong>Artwork Gallery</strong></span>
 <p>{% for img in page.album_imgs %}<a href="/images{{ page.url }}{{img}}" data-lightbox="image-1" data-title=""><img src="/images{{ page.url }}{{img}}" style="display:block;" /></a>{% endfor %}</p></div>
         </div>
-        <!-- LARGE 1 COLUMN -->
     </div>
 
     <div class="container" id="container-post">

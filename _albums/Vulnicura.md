@@ -22,7 +22,7 @@ tracks:
   b_tracks:
     - '<strong>Side B:</strong>'
     - '03-History of Touches'
-    - '04-Black lake'
+    - '04-Black Lake'
     - '05-Family'
   c_tracks:
     - '<strong>Side C:</strong>'

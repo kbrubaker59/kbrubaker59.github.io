@@ -59,9 +59,6 @@ body {
 =========== TREATMENT
 */
 
-html {
-
-}
 body {
 	margin: 0;
 	padding: 0;
@@ -146,7 +143,7 @@ h2 a:visited {
 }
 .box1, .box2 {
 	margin-bottom: 10px;
-	line-height: 14px; 
+	line-height: 16px; 
 	font-size: 14px;
 }
 .box3 {
@@ -167,7 +164,8 @@ h2 a:visited {
 	-khtml-border-radius: 4px; /* for old Konqueror browsers */
 	overflow: hidden;
 }
-.main:hover {
+.main:hover,
+.main:active {
 	-webkit-box-shadow: 0px 10px 70px 0px rgba(99,202,196,0.7);
 	-moz-box-shadow: 0px 10px 70px 0px rgba(99,202,196,0.7);
 	box-shadow: 0px 10px 70px 0px rgba(99,202,196,0.7);
@@ -180,17 +178,6 @@ h2 a:visited {
 	background-color: #fff;
 	border: solid 1px $seafoam;
 }
-/*#container-post {
-	background-color: rgba(255, 255, 255, 0.4);
-	color: #CCCCCC;
-	border: solid 1px #99111b;
-  	margin-bottom: 20px;
-  	margin-top: 20px;
-	-moz-border-radius: 4px;
-	-webkit-border-radius: 4px;
-	border-radius: 4px;*/ /* future proofing */
-	/*-khtml-border-radius: 4px;*/ /* for old Konqueror browsers */
-/*}*/
 ul.tracklist, ul.tracklist li {
 	padding: 0;
 	margin: 0;
@@ -205,13 +192,6 @@ ul.tracklist li {
 display: block;
 	padding-top: 6px;
 }
-/*.cover img {
-	width: 100%;
-	height: auto;
-	margin: 0 auto;
-	padding: 0;
-	line-height: 0;
-}*/
 .cover {
 	width: 80px;
 	height: 80px;
@@ -221,6 +201,11 @@ display: block;
 	padding: 0;
 	overflow: hidden;
 }
+.cover-post {
+	float: left;
+	min-width: 120px;
+	overflow: hidden;
+}
 a .artist,
 a:link .artist,
 a:visited .artist {
@@ -228,9 +213,19 @@ a:visited .artist {
 	color: $lightGray;
 	/*text-transform: uppercase;*/
 }
+.post-titles {
+	background-color: rgba(0,0,0,0.25);
+	padding: 30px 0;
+}
+.artist {
+	width: 100%;
+}
 .artist-post {
 	font-size: 32px;
 	line-height: 32px;
+	text-align: center;
+	display: block;
+	color: $white;
 }
 .record {
 	font-family: 'Open Sans Condensed', sans-serif;
@@ -239,10 +234,17 @@ a:visited .artist {
 	color: $red;
 }
 .record-post {
-	font-size: 90px;
-	line-height: 90px;
+	font-size: 100px;
+	line-height: 110px;
 	font-family: 'Tulpen One', sans-serif;
 	display: block;
+	width: 100%;
+	text-align: center;
+	text-shadow: 2px 2px 20px rgba(254,254,254,1.0);
+}
+
+.post-info {
+	padding-top: 20px;
 }
 .revolution {
 
@@ -263,7 +265,7 @@ box3 {
 	line-height: 18px;
 	color: $red;
 }
-#container-post-images {
+#container-post-gallery {
 	background-color: rgba(0, 0, 0, 0.2);
 	padding: 20px;
   	margin-bottom: 20px;
@@ -275,7 +277,8 @@ box3 {
 	-khtml-border-radius: 4px; /* for old Konqueror browsers */
 	overflow: hidden;
 }
-#container-post-images:hover {
+#container-post-gallery:hover,
+#container-post-gallery:active {
 	-webkit-box-shadow: 0px 10px 70px 0px rgba(99,202,196,0.7);
 	-moz-box-shadow: 0px 10px 70px 0px rgba(99,202,196,0.7);
 	box-shadow: 0px 10px 70px 0px rgba(99,202,196,0.7);
@@ -288,32 +291,36 @@ box3 {
 	background-color: #fff;
 	border: solid 1px $seafoam;
 }
-#container-post-images:hover div div span strong {
+#container-post-gallery:hover div div span strong,
+#container-post-gallery:active div div span strong {
 	color: $seafoam;
 }
-#container-post-images .large_col {
+#container-post-gallery .large_col {
 	margin: 0;
 }
-.post-images p {
+.post-gallery {
+	padding: 0;
+}
+.post-gallery p {
 	margin-bottom: 0;
 }
-.post-images a,
-.post-images a:link
-.post-images a:visited {
+.post-gallery a,
+.post-gallery a:link
+.post-gallery a:visited {
 	display: inline-block;
 	max-width: 105px;
 	margin-right: 20px;
 	vertical-align: top;
 	border: solid 1px $white;
 }
-.post-images a:hover {
+.post-gallery a:hover {
 }
-.post-thoughts {
-	
+.gallery {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 18px;
+	line-height: 18px;
+	color: $red;
 }
-/*.post-thoughts {
-	color: #FFFFFF;
-}*/
 .main:hover a .artist,
 .main:hover a:link .artist,
 .main:hover a:visited .artist {
