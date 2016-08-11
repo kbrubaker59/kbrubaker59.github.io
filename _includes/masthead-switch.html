@@ -1,17 +1,19 @@
 <div class="wrapper" id="wrapper-header">
     <div class="container" id="container-header">
         <!-- LARGE 1 COLUMN -->
+        {% if page.layout == "default" %}
         <div class="large_col">
-          {% if page.layout == "default" %}
             <div class="box1 headline">
                 <h1><a href="{{ site.baseurl }}/">My Very Own Pretentious and Wildly Unimportant</a></h1>
                 <h2><a href="{{ site.baseurl }}/">RECORD COLLECTION</a></h2>
             </div>
-          {% else %}
+        </div>
+        {% else %}
+        <div class="large_col headline-interior-bar">
             <div class="box1 headline-interior">
                 <h1><a href="{{ site.baseurl }}/">My Very Own Pretentious and Wildly Unimportant <span class="text-red">RECORD COLLECTION</span></a></h1>
             </div>
-          {% endif %}
         </div>
+        {% endif %}
     </div>
 </div>

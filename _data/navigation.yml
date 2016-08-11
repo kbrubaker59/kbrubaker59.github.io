@@ -1,18 +1,18 @@
 main:
   - title: "PRE-BEATLES"
-    url: /pre-beatles
+    url: /revolutions/pre-b-sort-date
 
   - title: "POST-BEATLES"
-    url: /post-beatles
+    url: /revolutions/post-b-sort-date
 
   - title: "PUNK"
-    url: /punk
+    url: /revolutions/punk-sort-date
 
   - title: "POST-PUNK"
-    url: /post-punk
+    url: /revolutions/post-punk-sort-date
 
-  - title: "ALTERNATIVE"
-    url: /alternative
+  - title: "GRUNGE/ALTERNATIVE"
+    url: /revolutions/g-alt-sort-date
 
   - title: "POST-BOY BAND"
-    url: /post-boy-band
+    url: /revolutions/post-bb-sort-date

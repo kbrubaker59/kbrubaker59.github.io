@@ -97,9 +97,13 @@ img {
 }
 #container-header {
 	max-width: 100%;
+	overflow: hidden;
 }
 #container-header .large_col {
-	margin: 0 20px;
+	margin: 0 auto;
+}
+#container-post-gallery p {
+	margin-top: 0;
 }
 #container-post-info {
 	margin-top: 20px;
@@ -133,14 +137,6 @@ h2 a:visited {
 	text-shadow: 0px 3px 7px #FFFFFF;
 	letter-spacing: 5px;
 }
-.headline-interior h1,
-.headline-interior h1 a,
-.headline-interior h1 a:link,
-.headline-interior h1 a:visited {
-	font-size: 20px;
-	line-height: 20px;
-	margin: 20px auto 20px;
-}
 .box1, .box2 {
 	margin-bottom: 10px;
 	line-height: 16px; 
@@ -149,6 +145,30 @@ h2 a:visited {
 .box3 {
 	padding-bottom: 6px;
 }
+.headline-interior-bar {
+	margin: 0 auto;
+	padding: 0 0 0 0;
+	background-color: rgba(255,255,255,0.8);
+}
+.headline-interior {
+	background-color: $midGray;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom: $red solid 1px;
+	/*-webkit-box-shadow: 0px 5px 15px 0px rgba(99,202,196,0.7);
+	-moz-box-shadow: 0px 5px 15px 0px rgba(99,202,196,0.7);
+	box-shadow: 0px 5px 15px 0px rgba(99,202,196,0.7);*/
+}
+.headline-interior h1,
+.headline-interior h1 a,
+.headline-interior h1 a:link,
+.headline-interior h1 a:visited {
+	font-size: 20px;
+	line-height: 34px;
+	margin: 0 auto;
+	text-shadow: none;
+}
+
 .sort-menu {
 	margin-bottom: 10px;
 }
@@ -169,12 +189,6 @@ h2 a:visited {
 	-webkit-box-shadow: 0px 10px 70px 0px rgba(99,202,196,0.7);
 	-moz-box-shadow: 0px 10px 70px 0px rgba(99,202,196,0.7);
 	box-shadow: 0px 10px 70px 0px rgba(99,202,196,0.7);
-/*	-webkit-box-shadow: 0px 10px 70px 0px rgba(255,255,255,1.0);
-	-moz-box-shadow: 0px 10px 70px 0px rgba(255,255,255,1.0);
-	box-shadow: 0px 10px 70px 0px rgba(255,255,255,1.0);
-	-webkit-box-shadow: 0px 20px 200px 0px rgba(1,116,130,0.5); 
-	-moz-box-shadow: 0px 20px 200px 0px rgba(1,116,130,0.5);
-	box-shadow: 0px 20px 200px 0px rgba(1,116,130,0.5); */
 	background-color: #fff;
 	border: solid 1px $seafoam;
 }
@@ -214,8 +228,11 @@ a:visited .artist {
 	/*text-transform: uppercase;*/
 }
 .post-titles {
-	background-color: rgba(0,0,0,0.25);
-	padding: 30px 0;
+	background-color: rgba(255,255,255,0.7);
+	padding: 30px 0 30px;
+	-webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.25);
+	box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.25);
 }
 .artist {
 	width: 100%;
@@ -225,7 +242,7 @@ a:visited .artist {
 	line-height: 32px;
 	text-align: center;
 	display: block;
-	color: $white;
+	color: $darkGray;
 }
 .record {
 	font-family: 'Open Sans Condensed', sans-serif;
@@ -241,10 +258,15 @@ a:visited .artist {
 	width: 100%;
 	text-align: center;
 	text-shadow: 2px 2px 20px rgba(254,254,254,1.0);
+	letter-spacing: 5px;
 }
-
+.record-post img {
+	width: 70px;
+	height: auto;
+	margin-top: 8px;
+}
 .post-info {
-	padding-top: 20px;
+	padding-top: 10px;
 }
 .revolution {
 
@@ -259,12 +281,47 @@ a:visited .artist {
 box3 {
 	line-height: 20px;
 }
+.details,
+.gallery,
 .thoughts {
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 18px;
 	line-height: 18px;
 	color: $red;
 }
+
+/* ============= titles on revolutions pages ============= */
+
+.revolution-titles {
+	background-color: rgba(153,17,27,0.7);
+	background-color: rgba(0,0,0,0.5);
+	padding: 30px 0 30px;
+	-webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.25);
+	box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.25);
+}
+.revolution-static {
+	font-size: 28px;
+	line-height: 28px;
+	text-align: center;
+	display: block;
+	color: $lightGray;	
+	text-shadow: 2px 2px 20px rgba(254,254,254,1.0);
+}
+.revolution-category-title {
+	font-size: 100px;
+	line-height: 110px;
+	font-family: 'Tulpen One', sans-serif;
+	display: block;
+	width: 100%;
+	text-align: center;
+	text-shadow: 2px 2px 20px rgba(254,254,254,0.5);
+	letter-spacing: 5px;
+	color: $red;
+}
+
+/* ============= galleries on album pages ============= */
+
 #container-post-gallery {
 	background-color: rgba(0, 0, 0, 0.2);
 	padding: 20px;
@@ -282,12 +339,6 @@ box3 {
 	-webkit-box-shadow: 0px 10px 70px 0px rgba(99,202,196,0.7);
 	-moz-box-shadow: 0px 10px 70px 0px rgba(99,202,196,0.7);
 	box-shadow: 0px 10px 70px 0px rgba(99,202,196,0.7);
-/*	-webkit-box-shadow: 0px 10px 70px 0px rgba(255,255,255,1.0);
-	-moz-box-shadow: 0px 10px 70px 0px rgba(255,255,255,1.0);
-	box-shadow: 0px 10px 70px 0px rgba(255,255,255,1.0);
-	-webkit-box-shadow: 0px 20px 200px 0px rgba(1,116,130,0.5); 
-	-moz-box-shadow: 0px 20px 200px 0px rgba(1,116,130,0.5);
-	box-shadow: 0px 20px 200px 0px rgba(1,116,130,0.5); */
 	background-color: #fff;
 	border: solid 1px $seafoam;
 }
@@ -314,12 +365,6 @@ box3 {
 	border: solid 1px $white;
 }
 .post-gallery a:hover {
-}
-.gallery {
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 18px;
-	line-height: 18px;
-	color: $red;
 }
 .main:hover a .artist,
 .main:hover a:link .artist,
@@ -351,7 +396,7 @@ a.on-page {
 
 
 
-/* ============  footer  ============= */
+/* =============  footer  ============= */
 
 footer {
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#99111b+0,51090a+100 */
